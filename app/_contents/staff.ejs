@@ -1,0 +1,66 @@
+<a class="anchor" id="staff"></a>
+<div class="contents">
+  <div class="ui page grid">
+    <div class="column">
+      <h1 class="section ui header">
+        <i class="heart icon"></i>
+        <div class="content">
+          Staff
+        </div>
+      </h1>
+      <div class="ui eight doubling cards">
+        <% staff.scala.forEach(function(member, index){ %>
+          <div class="card">
+            <div class="image">
+              <img src="<%= member.image %>">
+            </div>
+            <div class="content">
+              <a class="header" href="<%= member.url %>"><%= member.name %></a>
+              <% if(member.meta) { %>
+              <div class="meta">
+                <%= member.meta %>
+              </div>
+              <% } %>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+      <h2 class="ui header">ネットワークチーム</h2>
+      <div class="ui eight doubling cards">
+        <% staff.network.forEach(function(member, index){ %>
+          <div class="card">
+            <div class="image">
+              <img src="<%= member.image %>">
+            </div>
+            <div class="content">
+              <a class="header" href="<%= member.url %>"><%= member.name %></a>
+              <% if(member.meta) { %>
+              <div class="meta">
+                <%= member.meta %>
+              </div>
+              <% } %>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+      <h2 class="ui header">学生チーム</h2>
+      <div class="ui eight doubling cards">
+        <% staff.student.forEach(function(member, index){ %>
+          <div class="card">
+            <div class="image">
+              <img src="<%= member.image %>">
+            </div>
+            <div class="content">
+              <a class="header" href="<%= member.url %>"><%= member.name %></a>
+              <% if(member.meta) { %>
+              <div class="meta">
+                <%= member.meta %>
+              </div>
+              <% } %>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+</div>

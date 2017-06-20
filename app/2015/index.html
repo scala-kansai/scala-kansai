@@ -1,0 +1,1068 @@
+<!doctype html>
+<html class="no-js" lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="関西初のScala大規模イベントです。2015/8/1(土) 大阪中央公会堂にて開催。">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scala関西 Summit 2015 - 関西初のScala大規模イベント8/1(土)開催</title>
+    <meta property="og:title" content="Scala関西 Summit 2015 - 関西初のScala大規模イベント8/1(土)開催" />
+    <meta property="og:description" content="関西初のScala大規模イベントです。2015/8/1(土) 大阪中央公会堂にて開催。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://summit.scala-kansai.org/" />
+    <meta property="og:image" content="http://summit.scala-kansai.org/images/thumbnail.jpg" />
+    <meta property="og:site_name" content="Scala関西 Summit 2015">
+    <meta property="fb:app_id" content="1580317205586711">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.ico"/>
+
+    <link rel="stylesheet" href="styles/vendor-49ef0306ec.css">
+
+    <link rel="stylesheet" href="styles/main-53bc1de3cc.css">
+
+    <script src="scripts/vendor/modernizr-9d550bd14f.js"></script>
+  </head>
+  <body>
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1580317205586711',
+        xfbml      : true,
+        version    : 'v2.3'
+      });
+    };
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_KS/sdk.js#xfbml=1&version=v2.3&appId=1580317205586711";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="ui page grid">
+      <div class="column">
+        <div class="ui menu fixed header_menu">
+          <a id="sidebar-toggle" class="launch item">
+            <i class="content icon"></i>
+            Menu
+          </a>
+          <div class="header item"><a href="#top">Scala関西 Summit2015</a></div>
+          <div class="right menu">
+            <a class="item pc" href="#news">News</a>
+            <a class="item pc" href="#goals">Goals</a>
+            <a class="item pc" href="#speakers">Speakers</a>
+            <a class="item pc" href="#schedule">Schedule</a>
+            <a class="item pc" href="#venue">Venue</a>
+            <a class="item pc" href="#sponsors">Sponsors</a>
+            <a class="item pc" href="#staff">Staff</a>
+            <div class="item">
+              <a class="ui orange button" href="jobs.html"><i class="announcement icon"></i>求人・広告</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui left vertical inverted labeled icon sidebar menu">
+      <a class="item" href="#news">News</a>
+      <a class="item" href="#goals">Goals</a>
+      <a class="item" href="#speakers">Speakers</a>
+      <a class="item" href="#schedule">Schedule</a>
+      <a class="item" href="#venue">Venue</a>
+      <a class="item" href="#sponsors">Sponsors</a>
+      <a class="item" href="#staff">Staff</a>
+      <div class="item">
+        <a class="ui orange button" href="jobs.html"><i class="announcement icon"></i>求人・広告</a>
+      </div>
+    </div>
+
+    <div class="main container">
+      <a class="anchor" id="top"></a>
+      <div class="ui vertical segment masthead">
+        <img src="images/logo.png" class="logo" />
+        <div class="masthead-content">
+          <div class="ui padded grid ">
+            <div class="row">
+              <div class="column">
+                <p>CheerUp.scala!「Scalaを応援しよう！」をテーマに、関西最大級のScalaカンファレンスが開催されます。</p>
+                <a href="http://scalakansaisummit2015.peatix.com" class="large animated fade ui button teal">
+                  <div class="visible content"><i class="star icon"></i>参加登録はこちらから(受付終了)</div>
+                  <div class="hidden content">Go!</div>
+                </a>
+              </div>
+            </div>
+            <div class="two column doubling row">
+              <div class="column">
+                <div class="ui header">
+                  <i class="calendar icon"></i>
+                  <div class="content">
+                    日程：2015年8月1日(土)
+                  </div>
+                </div>
+                <div class="ui header">
+                  <i class="map icon"></i>
+                  <div class="content">
+                    場所：大阪中央公会堂
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <a class="big ui button orange" href="jobs.html">
+                  <i class="announcement icon"></i>スポンサー求人情報・広告</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui page grid">
+        <div class="row">
+          <div class="column">
+            <ul class="sns">
+              <li>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://summit.scala-kansai.org/" data-hashtags="scala_ks">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+              </li>
+              <li>
+                <a href="http://b.hatena.ne.jp/entry/http://summit.scala-kansai.org/" class="hatena-bookmark-button" data-hatena-bookmark-title="Scala関西 Summit 2015" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+              </li>
+              <li>
+                <div class="fb-like" data-href="http://summit.scala-kansai.org/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a class="anchor" id="news"></a>
+      <div class="contents">
+        <div class="ui page grid">
+          <div class="column">
+            <div class="ui success message">
+              <div class="content">
+                <p>8/1 Scala関西 Summit 無事に開催終了しました。ご参加・ご協力いただきました皆様、誠にありがとうございました。</p>
+              </div>
+            </div>
+            <h1 class="section ui header">
+              <i class="alarm outline icon"></i>
+              <div class="content">
+                News
+                <div class="sub header">お知らせ</div>
+              </div>
+            </h1>
+            <ul>
+              <li>2015/09/23 発表スライドへのリンク、及び 動画リンク追加(一部発表のみ)</li>
+              <li>2015/08/03 発表スライドへのリンク追加</li>
+              <li>2015/08/01 Scala関西 Summit 2015 開催</li>
+              <li>2015/07/31 タイムテーブル一部変更</li>
+              <li>2015/07/29 ハンズオン詳細更新</li>
+              <li>2015/07/01 参加登録受付開始 セッション情報一部公開</li>
+              <li>2015/05/09 Goldスポンサー 受付終了</li>
+              <li>2015/05/08 スポンサー様特典 一部改訂 (求人情報掲載をサービス宣伝との選択制に変更)</li>
+              <li>2015/05/03 公式サイトオープン</li>
+            </ul>
+          </div>
+        </div>
+      </div> <!-- news -->
+
+      <div class="ui horizontal divider"><i class="heart icon"></i></div>
+
+      <a class="anchor" id="goals"></a>
+      <div class="contents">
+        <div class="ui page grid">
+          <div class="column">
+            <h1 class="section ui header">
+              <i class="trophy icon"></i>
+              <div class="content">
+                Goals
+                <div class="sub header">開催趣旨</div>
+              </div>
+            </h1>
+            <p>
+              オブジェクト指向・関数型プログラミング言語として国内外で注目を浴びているScala。東京では2013年よりカンファレンスが開催されており、昨年のScalaMatsuri2014は450人もの参加者・関係者により大盛況のうちに幕を閉じました。
+            </p>
+            <p>
+              関西でも数年前からScala採用事例が増え、また各所で勉強会や読書会が開催されており、その存在感は日に日に増しています。
+              特に2012年より不定期開催されているScala関西ビギナーズ(現 Scala関西勉強会)では昨年9月、参加人数42人と過去最高を記録しました。
+              しかし、東京と比較すると技術者数・採用企業共に数は少なく、まだ勢いがあるとはいえない状況です。
+            </p>
+            <p>
+              そこで、関西でも大規模カンファレンスを開催、技術者同士の情報交換・交流の場として有意義な場を提供し、Scalaの普及促進を図りたいと思います。
+            </p>
+            <p>
+              大阪のシンボルの1つである中央公会堂にて開催する、記念すべき第1回目「Scala関西 Summit」
+            </p>
+            <p>
+              関西Scalaエンジニアが一堂に会するこの初サミットに、みなさまご期待ください。
+            </p>
+          </div>
+        </div>
+      </div> <!-- about -->
+
+      <div class="ui horizontal divider"><i class="heart icon"></i></div>
+
+      <a class="anchor" id="speakers"></a>
+      <div class="contents">
+        <div class="ui page grid">
+          <div class="column">
+            <h1 class="section ui header">
+              <i class="bookmark icon"></i>
+              <div class="content">
+                Guest Speakers
+                <div class="sub header">登壇者</div>
+              </div>
+            </h1>
+            <div class="ui six doubling cards">
+              <div class="card">
+                <div class="image">
+                  <img src="images/speakers/seratch.jpeg">
+                </div>
+                <div class="content">
+                  <span class="header">瀬良 和弘</span>
+                </div>
+                <div class="extra content">
+                  <div class="right floated">
+                    <a href="https://github.com/seratch"><i class="circular inverted teal github alternate icon"></i></a>
+                    <a href="https://twitter.com/seratch_ja"><i class="circular inverted teal twitter icon"></i></a>
+                    <a href="https://www.facebook.com/seratch"><i class="circular inverted teal facebook icon"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/speakers/agata.jpg">
+                </div>
+                <div class="content">
+                  <span class="header">縣 俊貴</span>
+                  <div class="meta">
+                    株式会社ヌーラボ
+                  </div>
+                </div>
+                <div class="extra content">
+                  <div class="right floated">
+                    <a href="https://github.com/agata"><i class="circular inverted teal github alternate icon"></i></a>
+                    <a href="https://twitter.com/agata"><i class="circular inverted teal twitter icon"></i></a>
+                    <a href="https://www.facebook.com/toshitaka.agata"><i class="circular inverted teal facebook icon"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/speakers/ada-u.png">
+                </div>
+                <div class="content">
+                  <span class="header">安達 勇太</span>
+                  <div class="meta">
+                    ChatWork株式会社
+                  </div>
+                </div>
+                <div class="extra content">
+                  <div class="right floated">
+                    <a href="https://github.com/ada-u"><i class="circular inverted teal github alternate icon"></i></a>
+                    <a href="https://twitter.com/uadachi"><i class="circular inverted teal twitter icon"></i></a>
+                    <a href="https://www.facebook.com/adachiyuta"><i class="circular inverted teal facebook icon"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/speakers/katojun.jpg">
+                </div>
+                <div class="content">
+                  <span class="header">かとじゅん</span>
+                </div>
+                <div class="extra content">
+                  <div class="right floated">
+                    <a href="https://github.com/j5ik2o"><i class="circular inverted teal github alternate icon"></i></a>
+                    <a href="https://twitter.com/j5ik2o"><i class="circular inverted teal twitter icon"></i></a>
+                    <a href="https://www.facebook.com/j5ik2o"><i class="circular inverted teal facebook icon"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/speakers/nakamura_sq.jpg">
+                </div>
+                <div class="content">
+                  <span class="header">中村 学</span>
+                  <div class="meta">
+                    株式会社Tech to Value
+                  </div>
+                </div>
+                <div class="extra content">
+                  <div class="right floated">
+                    <a href="https://github.com/gakuzzzz"><i class="circular inverted teal github alternate icon"></i></a>
+                    <a href="https://twitter.com/gakuzzzz"><i class="circular inverted teal twitter icon"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- speakers -->
+
+      <div class="ui horizontal divider"><i class="heart icon"></i></div>
+
+      <a class="anchor" id="schedule"></a>
+      <div class="contents">
+        <div class="ui page grid">
+          <div class="column">
+            <h1 class="section ui header">
+              <i class="wait icon"></i>
+              <div class="content">
+                Schedule
+                <div class="sub header">スケジュール</div>
+              </div>
+            </h1>
+            <p>
+              ※ 変更となる可能性があります<br>
+              ※ ご参加の方は必ず参加登録をお願いします。当日参加枠および当日キャンセル待ち枠はありません。
+            </p>
+            <table class="ui definition celled table">
+              <thead class="full-width">
+                <tr>
+                  <th></th>
+                  <th class="center aligned">メインホール<br>小集会室</th>
+                  <th class="center aligned">サブホール<br>第6〜8会議室</th>
+                  <th class="center aligned">ハンズオン・LT<br>第4会議室</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="center aligned">10:00<br>|<br>10:30</td>
+                  <td>受付</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">10:30<br>|<br>10:45</td>
+                  <td>オープニング</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="3" class="center aligned"><i class="coffee icon"></i>休憩</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">10:50<br>|<br>11:15</td>
+                  <td data-bind="with: sessions[0]" style="vertical-align: top;">
+                    <div><a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a></div>
+                    <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
+                    <!-- ko if: movie -->
+                    <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                    <!-- /ko -->
+                  </td>
+                  <td data-bind="with: sessions[9]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
+                    <!-- ko if: movie -->
+                    <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                    <!-- /ko -->
+                  </td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="3" class="center aligned"><i class="coffee icon"></i>休憩</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">11:25<br>|<br>11:50</td>
+                  <td data-bind="with: sessions[5]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
+                    <!-- ko if: movie -->
+                    <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                    <!-- /ko -->
+                  </td>
+                  <td data-bind="with: sessions[3]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
+                    <!-- ko if: movie -->
+                    <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                    <!-- /ko -->
+                  </td>
+                  <td data-bind="with: sessions[16]" rowspan="3" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
+                    <!-- ko if: movie -->
+                    <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                    <!-- /ko -->
+                    <p>定員：20名</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="2" class="center aligned"><i class="coffee icon"></i>休憩</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">12:00<br>|<br>12:25</td>
+                  <td data-bind="with: sessions[2]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
+                    <!-- ko if: movie -->
+                    <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                    <!-- /ko -->
+                  </td>
+                  <td data-bind="with: sessions[7]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
+                    <!-- ko if: movie -->
+                    <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                    <!-- /ko -->
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="3" class="center aligned"><i class="food icon"></i>昼休み</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">13:30<br>|<br>13:55</td>
+                  <td data-bind="with: sessions[1]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
+                    <!-- ko if: movie -->
+                    <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                    <!-- /ko -->
+                  </td>
+                  <td data-bind="with: sessions[4]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
+                    <!-- ko if: movie -->
+                    <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                    <!-- /ko -->
+                  </td>
+                  <td data-bind="with: sessions[17]" rowspan="3" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
+                    <!-- ko if: movie -->
+                    <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                    <!-- /ko -->
+                    <p>定員：20名</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="2" class="center aligned"><i class="coffee icon"></i>休憩</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">14:05<br>|<br>14:30</td>
+                  <td data-bind="with: sessions[6]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
+                    <!-- ko if: movie -->
+                    <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                    <!-- /ko -->
+                  </td>
+                  <td data-bind="with: sessions[8]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
+                    <!-- ko if: movie -->
+                    <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                    <!-- /ko -->
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="3" class="center aligned"><i class="coffee icon"></i>休憩</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">14:40<br>|<br>15:05</td>
+                  <td style="vertical-align: top;">
+                    <b class="program title">LT大会</b>
+                    <div data-bind="with: sessions[12]">
+                      <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                      <span data-bind="text: speaker.name"></span>
+                      <!-- ko if: link -->
+                      <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                      <!-- /ko -->
+                      <!-- ko if: movie -->
+                      <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                      <!-- /ko -->
+                    </div>
+                    <div data-bind="with: sessions[14]">
+                      <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                      <span data-bind="text: speaker.name"></span>
+                      <!-- ko if: link -->
+                      <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                      <!-- /ko -->
+                      <!-- ko if: movie -->
+                      <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                      <!-- /ko -->
+                    </div>
+                    <div data-bind="with: sessions[13]">
+                      <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                      <span data-bind="text: speaker.name"></span>
+                      <!-- ko if: link -->
+                      <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                      <!-- /ko -->
+                      <!-- ko if: movie -->
+                      <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                      <!-- /ko -->
+                    </div>
+                    <div data-bind="with: sessions[15]">
+                      <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                      <span data-bind="text: speaker.name"></span>
+                      <!-- ko if: link -->
+                      <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                      <!-- /ko -->
+                      <!-- ko if: movie -->
+                      <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                      <!-- /ko -->
+                    </div>
+                  </td>
+                  <td data-bind="with: sessions[11]" style="vertical-align: top;">
+                    <a class="session title" href="#" data-bind="text: title, click: $parent.showDetail"></a><br>
+                    <span data-bind="text: speaker.name"></span>
+                    <!-- ko if: link -->
+                    <a class="ui orange mini button" data-bind="attr: { href: link }"><i class="file outline icon"></i>資料</a>
+                    <!-- /ko -->
+                    <!-- ko if: movie -->
+                    <a class="ui blue mini button" data-bind="attr: { href: movie }"><i class="film icon"></i>動画</a>
+                    <!-- /ko -->
+                  </td>
+                  <td data-bind="with: sessions[10]" style="vertical-align: top;">
+                    <span class="session title" style="text-decoration: line-through;" data-bind="text: title"></span><br>
+                    <span data-bind="text: speaker.name" style="text-decoration: line-through;"></span>
+                    <div class="ui red message">
+                      こちらのセッションは登壇者の体調不良によりキャンセルとなりました。ご了承ください。
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colspan="3" class="center aligned"><i class="coffee icon"></i>休憩</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">15:15<br>|<br>16:00</td>
+                  <td style="vertical-align: top;">
+                    <b class="program title">パネルトーク</b><br>
+                    モデレータ：<!-- ko with: sessions[18] --><a class="session title" href="#" data-bind="text: speaker.name, click: $parent.showDetail"></a><!-- /ko --><br>
+                    パネリスト：
+                    <!-- ko with: sessions[19] --><a class="session title" href="#" data-bind="text: speaker.name, click: $parent.showDetail"></a><!-- /ko -->,
+                    <!-- ko with: sessions[20] --><a class="session title" href="#" data-bind="text: speaker.name, click: $parent.showDetail"></a><!-- /ko -->,
+                    <!-- ko with: sessions[21] --><a class="session title" href="#" data-bind="text: speaker.name, click: $parent.showDetail"></a><!-- /ko -->,
+                    <!-- ko with: sessions[22] --><a class="session title" href="#" data-bind="text: speaker.name, click: $parent.showDetail"></a><!-- /ko -->
+                  </td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">16:00<br>|<br>16:20</td>
+                  <td>クロージング</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="ui standard session modal">
+              <i class="session close icon"></i>
+              <!-- ko if: selected().title -->
+              <div class="header" data-bind="text: selected().title"></div>
+              <!-- /ko -->
+              <div class="content" data-bind="with: selected">
+                <div class="description">
+                  <div data-bind="foreach: description">
+                    <p data-bind="html: $data"></p>
+                  </div>
+                  <div class="ui items">
+                    <div class="item">
+                      <div class="image">
+                        <img data-bind="attr: { src: 'images/speakers/' + speaker.image }">
+                        <div class="extra">
+                          <div class="right floated">
+                            <!-- ko if: speaker.github -->
+                              <a data-bind="attr: { href: speaker.github }"><i class="circular inverted teal github alternate icon"></i></a>
+                            <!-- /ko -->
+                            <!-- ko if: speaker.twitter -->
+                              <a data-bind="attr: { href: speaker.twitter }"><i class="circular inverted teal twitter icon"></i></a>
+                            <!-- /ko -->
+                            <!-- ko if: speaker.twitter_en -->
+                              <a data-bind="attr: { href: speaker.twitter_en }"><i class="circular inverted teal twitter icon"></i></a>
+                            <!-- /ko -->
+                            <!-- ko if: speaker.facebook -->
+                              <a data-bind="attr: { href: speaker.facebook }"><i class="circular inverted teal facebook icon"></i></a>
+                            <!-- /ko -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content">
+                        <span class="header" data-bind="text: speaker.name"></span>
+                        <div class="description" data-bind="foreach: speaker.introduction">
+                          <p data-bind="html: $data"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="ui button session close">
+                  Close
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- Schedule -->
+
+      <div class="ui horizontal divider"><i class="heart icon"></i></div>
+
+      <a class="anchor" id="venue"></a>
+      <div class="contents">
+        <div class="ui page grid">
+          <div class="column">
+            <h1 class="section ui header">
+              <i class="marker icon"></i>
+              <div class="content">
+                Venue
+                <div class="sub header">会場</div>
+              </div>
+            </h1>
+            <h4 class="ui top attached header">
+              <a href="http://osaka-chuokokaido.jp/">大阪市中央公会堂</a>
+            </h4>
+            <div class="ui attached segment">
+              <div class="googlemap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3280.4627712360043!2d135.5039!3d34.693506!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6e63367b5ad%3A0xbfee32515e20cd5d!2z5aSn6Ziq5biC5Lit5aSu5YWs5Lya5aCC!5e0!3m2!1sja!2sjp!4v1425916518197" frameborder="0" style="border:0"></iframe>
+              </div>
+            </div>
+            ※ 当イベントについて、会場へは問い合わせないようにお願いします。
+          </div>
+        </div>
+      </div> <!-- venue -->
+
+      <div class="ui horizontal divider"><i class="heart icon"></i></div>
+
+      <a class="anchor" id="sponsors"></a>
+      <div class="contents">
+        <div class="ui stackable page grid">
+          <div class="row">
+            <div class="column">
+              <h1 class="section ui header">
+                <i class="star icon"></i>
+                <div class="content">
+                  Sponsors
+                  <div class="sub header">スポンサー</div>
+                </div>
+              </h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column center aligned">
+              <a class="big ui button orange" href="jobs.html">
+                <i class="announcement icon"></i>スポンサー企業様の求人情報、自社サービス紹介ページはこちら
+              </a>
+            </div>
+          </div>
+          <h2 class="ui header">Gold</h2>
+          <div class="two column row">
+            <div class="column">
+              <div class="ui segment">
+                <a href="http://nulab-inc.com/">
+                  <img class="ui centered image" src="images/sponsors/nulab.png">
+                </a>
+                <h3 class="ui header"><a href="http://nulab-inc.com/">株式会社ヌーラボ</a></h3>
+                <p>
+                  ヌーラボは「チームで働くすべての人に」をコンセプトに、仕事を楽しく、コラボレーションを促進するサービスを開発しています。
+                  そのサービスは世界中で利用されており、沢山のユーザのお仕事を支えています。
+                </p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui segment">
+                <a href="http://www.t2v.jp/">
+                  <img class="ui centered image" src="images/sponsors/t2v.png">
+                </a>
+                <h3 class="ui header"><a href="http://www.t2v.jp/">株式会社Tech to Value</a></h3>
+                <p>
+                  確かな技術力でお客様が生み出す価値を最大化します。Scalaの導入支援やWebサービスの立ち上げなど、お気軽にご相談ください。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="two column row">
+            <div class="column">
+              <div class="ui segment">
+                <a href="http://www.chatwork.co.jp/">
+                  <img class="ui centered image" src="images/sponsors/chatwork.png">
+                </a>
+                <h3 class="ui header"><a href="http://www.chatwork.co.jp/">ChatWork株式会社</a></h3>
+                <p>
+                  当社は『チャットワーク』というクラウド型ビジネスチャットツールを展開しています。「チャットワークで世界の働き方を変える！」のミッションのもと組織の生産性向上やコミュニケーション活性化に貢献しています。
+                </p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui segment">
+                <a href="http://samuraism.com/">
+                  <img class="ui centered image" src="images/sponsors/samuraism.png">
+                </a>
+                <h3 class="ui header"><a href="http://samuraism.com/">株式会社サムライズム</a></h3>
+                <p>
+                  サムライズムはソフトウェア開発をより豊かで楽しいものにする製品、サービスを提供しております。
+                  IntelliJ IDEA、JRebel、JIRAなど、はじめたらやめられない病みつきになるツール群を取りそろえておりますので是非お試しください。
+                </p>
+              </div>
+            </div>
+          </div>
+          <h2 class="ui header">Silver</h2>
+          <div class="three column row aligned">
+            <div class="column">
+              <a href="http://hatenacorp.jp/">
+                <img src="images/sponsors/hatena.svg" class="logo-silver">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://adtech.cyberagent.io/scalablog/">
+                <img src="images/sponsors/ca.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://www.glad-cube.com/">
+                <img src="images/sponsors/gladcube.png">
+              </a>
+            </div>
+          </div>
+          <div class="three column row aligned">
+            <div class="column">
+              <a href="http://www.furyu.jp/">
+                <img src="images/sponsors/furyu.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://www.xyzzyx.co.jp/">
+                <img src="images/sponsors/xyzzyx.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://www.typesafe.com/">
+                <img src="images/sponsors/typesafe.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://corporate.m3.com/">
+                <img src="images/sponsors/m3.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://www.motex.co.jp/">
+                <img src="images/sponsors/motex.png">
+              </a>
+            </div>
+          </div>
+          <h2 class="ui header">Bronze</h2>
+          <div class="five column row aligned">
+            <div class="column">
+              <a href="http://kotoba-lab.jp/">
+                <img class="ui image" src="images/sponsors/kotoba.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://www.linkode.co.jp/">
+                <img class="ui image" src="images/sponsors/linkode.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://www.tech-vein.com/">
+                <img class="ui image" src="images/sponsors/techvein.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://www.benly.co.jp/">
+                <img class="ui image" src="images/sponsors/benly.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://impath.co.jp/">
+                <img class="ui image" src="images/sponsors/impath.png">
+              </a>
+            </div>
+          </div>
+          <div class="five column row aligned">
+            <div class="column">
+              <a href="http://www.tierline.com/">
+                <img class="ui image" src="images/sponsors/tierline.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://wachi.info/">
+                <img class="ui image" src="images/sponsors/wachi.png">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://www.whizz-tech.co.jp/">
+                <img class="ui image" src="images/sponsors/whizz.png">
+              </a>
+            </div>
+          </div>
+          <h2>スポンサー募集</h2>
+          <div class="row">
+            <div class="column">
+              <p>
+                スポンサー様の受付は終了いたしました。たくさんのご応募ありがとうございました。
+              </p>
+              <a class="big ui button teal" href="https://drive.google.com/file/d/0B-gxuZxU10dzMHdPak9PcjFIWFE/view?usp=sharings">
+                <i class="file pdf outline icon"></i>Scala関西 Summit 2015 スポンサーシップのご案内
+              </a>
+            </div>
+          </div>
+        </div>
+      </div> <!-- sponsors -->
+      <div class="ui horizontal divider"><i class="heart icon"></i></div>
+
+      <a class="anchor" id="staff"></a>
+      <div class="contents">
+        <div class="ui page grid">
+          <div class="column">
+            <h1 class="section ui header">
+              <i class="smile icon"></i>
+              <div class="content">
+                Staff
+                <div class="sub header">スタッフ</div>
+              </div>
+            </h1>
+            <div class="ui eight doubling cards">
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/kinoko.png">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/aa7th">Abe Asami</a>
+                  <div class="meta">
+                    実行委員長
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/daisky.png">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/daiksy">Kasuya Daisuke</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/mumoshu.png">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/mumoshu">Kuoka Yusuke</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/ryu1.png">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/ryu1_okd">Okada Ryuichi</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/kuchitama.png">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/Kuchitama">Kunihira Kiyotaka</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/kitora.png">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/kitora_naoki">Kitora Naoki</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/ito.png">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/0x17E">ITO Ryuichi</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/hayasshi.png">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/hayasshi_">Hayashi Daisuke</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/hajee.png">
+                </div>
+                <div class="content">
+                  <span class="header">Hajee</span>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/hamazy.jpeg">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/hamazy">Suguru Hamazaki</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/matsushi.png">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/tomo_matsushi">matsushita</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/danno.png">
+                </div>
+                <div class="content">
+                  <span class="header">だんの</span>
+                  <div class="meta">
+                    ネットワークチーム
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/nagano.jpg">
+                </div>
+                <div class="content">
+                  <span class="header">Sotaro Nagao</span>
+                  <div class="meta">
+                    ネットワークチーム
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image">
+                  <img src="images/icons/yamashita.jpeg">
+                </div>
+                <div class="content">
+                  <a class="header" href="https://twitter.com/teru147">Yamashita Terushi</a>
+                  <div class="meta">
+                    ネットワークチーム
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- Staff -->
+      <div class="contents">
+        <div class="ui page grid">
+          <div class="column">
+            <h1 class="section ui header">
+              <i class="heart icon"></i>
+              <div class="content">
+                Special Thanks
+              </div>
+            </h1>
+            <div class="ui five doubling cards">
+              <div class="card">
+                <div class="content">
+                  <span class="header">Logo Desiginer</span>
+                </div>
+                <div class="image">
+                  <a href="http://osaru-kyujitu.com/">
+                    <img class="ui image" src="images/icons/osaru.png">
+                  </a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="content">
+                  <span class="header">Photographer</span>
+                </div>
+                <div class="image">
+                  <a href="http://hpo-tres.jp/">
+                    <img class="ui image" src="images/icons/hpo.jpg">
+                  </a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="content">
+                  <span class="header">Network Team</span>
+                </div>
+                <div class="image">
+                  <a href="http://www.nsc.gr.jp/">
+                    <img class="ui image" src="images/icons/nsc_logo.svg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contents">
+        <div class="ui page grid">
+          <div class="column">
+            ※ 当イベントに関するお問い合わせは<a href="http://goo.gl/forms/0jgvS6ufhL">こちらのフォーム</a>からお願いします。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui inverted footer vertical segment">
+      <div class="ui stackable center aligned page grid">
+        <div class="column">
+          copyright &copy; 2015 Scala関西ユーザーグループ All Rights Reserved.
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-62533985-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+    <script src="scripts/vendor-b3cb616551.js"></script>
+
+        <script src="scripts/main-26aed58625.js"></script>
+        <script src="scripts/sessions-c617a6a3d9.js"></script>
+    <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+</body>
+</html>

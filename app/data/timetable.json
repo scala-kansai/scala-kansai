@@ -1,0 +1,327 @@
+[
+  {
+    "start":"10:50",
+    "end": "11:10",
+    "contents":
+    [
+      {
+        "id":"s1",
+        "title":"はてなにおけるマイクロサービスとScala",
+        "speaker":"aereal",
+        "slide":"https://speakerdeck.com/aereal/microservices-and-scala-at-hatena",
+        "movie":"https://youtu.be/K3zRqI2ikB4",
+        "profile":"<p>株式会社はてなのアプリケーションエンジニア。</p><p><a href='https://profile.hatena.ne.jp/aereal/'>https://profile.hatena.ne.jp/aereal/</a></p><p><i class='github icon'></i><a href='https://github.com/aereal'>aereal</a></p>",
+        "image":"https://avatars3.githubusercontent.com/u/87649",
+        "description":"<p>はてなにおける Scala でマイクロサービスを開発した事例についてご紹介します。</p><p>サーバー監視サービスの <a href='https://mackerel.io/' target='_blank'>Mackerel</a> や現在進行中のはてなブックマークリニューアルで主たる言語として Scala を採用しているはてなで、新たなマイクロサービスの開発を Scala で進めました。</p><p>先行するプロジェクトの知見を活かして DDD (ドメイン駆動設計) を更に洗練し実践するために、ユースケース駆動設計を導入し漸進的な分析や、ビルドプロジェクト構成やプログラミング要素技術に関して様々な工夫をしています。</p><p>過去のはてなにおける統合パターンの歴史を踏まえつつ、なぜそう至ったのかという背景まで含めた持続可能なマイクロサービスの設計についてご紹介します。</p>",
+        "rowspan":"2"
+      },
+      {
+        "id":"s2",
+        "title":"Real World Android Akka",
+        "speaker":"麻植 泰輔",
+        "slide":"http://www.slideshare.net/TaisukeOe/real-world-android-akka",
+        "profile":"<p>ScalaでAndroidアプリを4年以上開発しており、現在はBONX, Inc.においてAndroidアプリの開発をリード。</p><p>また並行して個人活動としてScala新人研修やコンサルティングを顧客企業向けに提供している。</p><p>ScalaMatsuriの前身であるScala Conference in Japan 2013よりScalaカンファレンス運営を続け、2017年度ScalaMatsuri座長。Japan Scala Association, Inc.常務理事。</p><p><a href='http://www.atware.co.jp/blog/2016/7/4/scala-vol6-oe'>http://www.atware.co.jp/blog/2016/7/4/scala-vol6-oe</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/OE_uia'>OE_uia</a></p><p><i class='github icon'></i><a href='https://github.com/taisukeoe'>taisukeoe</a></p>",
+        "image":"https://pbs.twimg.com/profile_images/513688856479027201/xQCPwsak.jpeg",
+        "description":"<p>Akkaは、Actorモデルによる並行プログラミングをサポートするとても優れたツールです。</p><p>Androidアプリでも、Actorモデル、そしてAkkaがフィットするケースは少なくありません。</p><p>例えばソケットなど複数のIO処理や、状態管理を伴う重い計算、複数のモジュールの協調動作、耐障害性などが複合して求められるケースです。</p><p>また、Android端末の性能の進化によりCPUも現在ではオクタコアが主流となるなどマルチコア化が進んでいることで、Akka採用のハードルが下がってきています。</p><p>本講演は、Scala + Akka(及びAkka IO)を用いたアウトドア向け音声通話(VoIP)Androidアプリ「BONX」を例にとり、Actorモデルの基礎的な概念、AndroidでのAkkaの使い方、そしてメリット・デメリットについて具体例を交えながら解説するセッションです。</p><p>BONXでは音声ストリーム処理を取り扱うため低遅延かつ高スループットを要求されますが、Akka及びAkka IOは現状十分なパフォーマンスと、複雑な排他制御から解放された見通しの良いコードを両立しています。</p><p>本講演ではScalaやAkkaを用いたAndroidアプリ開発に関心のある方だけではなく、AkkaによるActorプログラミングについて学びたい方も対象としています。</p>",
+        "rowspan":"2"
+      },
+      {
+        "id":"s3",
+        "title":"インターンシップの学生にお届けしようとしたScalaの文法(初級編)",
+        "slide":"http://www.slideshare.net/KentaroMasuda3/scala-66881967",
+        "movie":"https://youtu.be/sBRdwApR8bE",
+        "profile":"<p>エムオーテックス株式会社で働くエンジニアです。スクラムマスター、アジャイル開発の支援が、主な仕事です。</p><p>インターンシップの学生受け入れ担当として、Scalaを日々勉強しています。</p><p><i class='facebook icon'></i><a href='https://www.facebook.com/profile.php?id=100003043368885'>https://www.facebook.com/profile.php?id=100003043368885</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/scrummasudar'>scrummasudar</a></p><p>ブログ</p><p><a href='http://scrummasudar.hatenablog.com/'>http://scrummasudar.hatenablog.com/</a></p>",
+        "image":"/images/speakers/scrummasudar.jpg",
+        "speaker":"増田　謙太郎",
+        "description":"<p>インターンシップの学生を、本年度から採用することになりました。</p><p>Scala初心者にも関わらず、インターンシップ担当になってしまった私は、学生にScalaを伝えるために、Scalaに関する本やサイトで、文法について、再度、学習しました。</p><p>このセッションでは、これからScalaをはじめようと思っている方、Scalaをはじめて間もない初心者の方に向けて、Scalaの文法について、説明します。</p><p>特に、Scalaを学習する際の序盤に、つまずきやすい点について、紹介します。</p>"
+      }
+    ]
+  },
+  {
+    "start":"11:15",
+    "end": "11:35",
+    "contents":
+    [
+      {
+        "id":"s4",
+        "title":"Scalaで学ぶ数学",
+        "speaker":"@nobkz",
+        "profile":"<p>はなだのぶかず</p><p><i class='twitter icon'></i><a href='https://twitter.com/nobkz'>nobkz</a></p>",
+        "image":"/images/speakers/nobkz.png",
+        "description":"<p>簡単な数学を数式を使わずにScalaを使って説明する。</p>"
+      }
+    ]
+  },
+  {
+    "start":"11:35",
+    "end": "11:50",
+    "break": true,
+    "title": "休憩 (15分)"
+  },
+  {
+    "start":"11:50",
+    "end": "12:10",
+    "contents":
+    [
+      {
+        "id":"s5",
+        "title":"ガチのスタートアップがScala採用した結果",
+        "speaker":"くちたま",
+        "slide":"http://www.slideshare.net/KiyotakaKunihira/scala-scalaks",
+        "movie":"https://youtu.be/srMVmKqt3Hw",
+        "profile":"<p>前職にてScalaに出会い、ScalaMatsuriなどのスタッフ活動を通してScalaコミュニティに貢献しています</p><p>1年前に転職し、社員10人以下のEdTechスタートアップ企業でScalaを採用したサービス開発を行いました</p><p>現在は、Scala+Play2の他にRoR、ReactNativeを用いた開発プロジェクトに携わっています</p><p><i class='twitter icon'></i><a href='https://twitter.com/Kuchitama'>Kuchitama</a></p><p><i class='github icon'></i><a href='https://github.com/Kuchitama'>Kuchitama</a></p>",
+        "image":"https://pbs.twimg.com/profile_images/3098931127/b08fec5532955bcdfc1d43ef4f0174a2.png",
+        "description":"<p>1年前にスタートアップ企業に転職して、Scala+Play2を採用してサービス開発を行いました。ちょうど1年経ったこのタイミングで、会社やサービス、開発チームがどうなったか、乗り越えたトラブルも、抱えている課題も赤裸々にご紹介します。</p><p>Scalaエンジニア1人からスタートして、社内での普及のための取り組みとその効果などを共有する予定です。</p>"
+      },
+      {
+        "id":"s6",
+        "title":"akka-stream を始めるときに覚えておきたいこと",
+        "speaker":"河内 崇",
+        "slide":"https://speakerdeck.com/tkawachi/akka-stream-woshi-merutokinijue-eteokitaikoto",
+        "movie":"https://youtu.be/PRhro9x2oG4",
+        "profile":"<p>プログラマで2児の父。ScalaMatsuriの運営に関わっています。</p><p><i class='github icon'></i><a href='https://github.com/tkawachi/'>tkawachi</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/kawachi'>kawachi</a></p>",
+        "image":"https://s.gravatar.com/avatar/35ea8f83cd8d191f834c69a5481613e9",
+        "description":"<p>akka-stream は今春 experimental を抜けました。Play 2.5 でも利用されているため、Play でウェブ開発をしている人たちにも身近な存在となっています。</p><p>akka-stream の概要と akka-stream でプログラムを書くときに出てくる他ではあまり出てこない概念（back pressure, Source, Sink, Materializer など）について解説します。</p>",
+        "rowspan":"2"
+      },
+      {
+        "id":"s7",
+        "title":"関数プログラミングことはじめ revival (ハンズオン)",
+        "speaker":"木虎 直樹",
+        "slide":"http://www.slideshare.net/slideshow/embed_code/key/1Mv4RzvFY3qK5b",
+        "profile":"<p>シナジーマーケティング株式会社で働く IT エンジニア。</p><p>2011年からソフトウェア開発に Scala を使い始め、社内の一部でも使われるようになった。</p><p>が、最近の主な業務はプログラミングではなくなってきている。</p>",
+        "image":"http://event.shoeisha.jp/static/images/event/497/images/b3_mr_kitora.jpg",
+        "description":"<p>単な例を使い命令プログラミングと関数プログラミングにおける問題へのアプローチの違いを体験してもらいます。再帰のコードは読みづらい、あるいは、ループなしでどうやってコードを書くのかというような疑問を持っている人には良いかもしれません。内容は昨年実施したものとほぼ同じです。<p>&nbsp;</p><p>使用予定環境：</p><ul><li>JDK</li><li>IntelliJ IDEA CE</li><li>Scala プラグイン</li></ul><p>(会場のネットワーク環境の都合上 &quot;必ず&quot; 事前に準備をお願いします)</p>",
+        "rowspan":"4"
+      }
+    ]
+  },
+  {
+    "start":"12:15",
+    "end": "12:35",
+    "contents":
+    [
+      {
+        "id":"s8",
+        "title":"fs2で始める関数型ストリーミング処理入門",
+        "speaker":"kazzna",
+        "slide":"https://speakerdeck.com/kazzna/fs2deshi-meruguan-shu-xing-sutoriminguchu-li-ru-men",
+        "movie":"https://youtu.be/z3XX3KvsHIU",
+        "profile":"<p>IT系非園児にゃーです。普段はデータ解析とかやってます。</p><p><i class='twitter icon'></i><a href='https://twitter.com/kazzna'>kazzna</a></p><p><i class='github icon'></i><a href='https://github.com/kazzna'>kazzna</a></p>",
+        "image":"http://deliver.commons.nicovideo.jp/thumbnail/nc87142?size=l",
+        "description":"<p>非同期処理を簡単に行えるライブラリーfs2を使用して、関数型ストリーミング処理の考え方や使い方をゆるふあに学びたいと思います。</p><p>難しい理論や原理は他の発表者の方に譲って、取っ掛かりだけつかめれば良いと思う人向けに頑張ります。</p>"
+      }
+    ]
+  },
+  {
+    "start":"12:35",
+    "end": "12:40",
+    "break": true,
+    "title": "休憩 (5分)",
+    "colspan": "2"
+  },
+  {
+    "start":"12:40",
+    "end": "13:00",
+    "contents":
+    [
+      {
+        "id":"s9",
+        "title":"社内でSparkが流行ってきた話",
+        "speaker":"岡田 遥来",
+        "slide":"https://speakerdeck.com/ocadaruma/sparkgashe-nei-deliu-xing-tutekitahua",
+        "profile":"<p>株式会社オプト所属のScalaエンジニアです。</p><p><i class='github icon'></i><a href='https://github.com/ocadaruma'>ocadaruma</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/ocadaruma'>ocadaruma</a></p>",
+        "image":"https://pbs.twimg.com/profile_images/655093624615497728/WehY-pPn.png",
+        "description":" <p>新規プロダクトでSparkを採用したことで知見が得られ、他の新規プロダクト / 機能追加開発においてもSpark導入が増えてきたことについての発表です。</p>"
+      },
+      {
+        "id":"s10",
+        "title":"詳解 ::",
+        "slide":"http://backpaper0.github.io/ghosts/colon-colon/#1",
+        "speaker":"うらがみ",
+        "profile":"<p>Javaプログラマです。</p><p>GitHubに草生やすのが最近の趣味です。</p><p><i class='github icon'></i><a href='https://github.com/backpaper0'>backpaper0</a></p>",
+        "image":"https://avatars3.githubusercontent.com/u/209262",
+        "description":"<p>val xs = 1 :: 2 :: Nil とすればリストxsが作れます。</p><p>またval h :: t = xs とすればリストxsを分解できます。</p><p>本セッションでは、このリストにまつわるふたつの :: がScalaの文法を使ってどのように実現されているのかを紐解いて、自作のデータ構造への応用を試してみます。</p>"
+      }
+    ]
+  },
+  {
+    "start":"13:00",
+    "end": "14:00",
+    "break": true,
+    "title": "お昼休憩 (60分)"
+  },
+  {
+    "start":"14:00",
+    "end": "14:45",
+    "contents":
+    [
+      {
+        "id":"s11",
+        "title":"Implicit 再入門",
+        "speaker":"中村 学（がくぞ）",
+        "slide":"http://gakuzzzz.github.io/slides/implicit_reintroduction/#1",
+        "movie":"https://youtu.be/kWxMoyAQzYw",
+        "profile":"<p>株式会社Tech to Value 代表取締役。Scalaを中心にWeb開発やITシステムコンサルティングを行っています。</p>",
+        "image":"http://summit.scala-kansai.org/2015/images/speakers/nakamura.jpg",
+        "description":"<p>「Scalaのコードは読みにくい」「Implicitが無ければ……」等の声を耳にします。これに応えて、なぜimplicitが必要なのか、implicitは本当に可読性を下げるのか、適切なimplicitの使い方などを考察していきます</p>"
+      },
+      {
+        "id":"s12",
+        "title":"実行時バイトコード最適化でScalaプログラムを高速化する",
+        "speaker":"todesking",
+        "profile":"<p>VimでScalaを書いている</p>",
+        "image":"https://avatars3.githubusercontent.com/u/112881",
+        "description":"<p>高度な抽象化がされたScalaプログラムはパフォーマンスのオーバヘッドを伴います。JITがあるから大丈夫? しかし現実は甘くなかった。実行時にバイトコードを変換することで、極限までオーバヘッドを減らす手法について紹介します。</p>"
+      },
+      {
+        "id":"s13",
+        "title":"Play Framework と Scala を使った開発を学べるハンズオン",
+        "speaker":"内田 優一",
+        "slide":"http://qiita.com/yuichi0301/items/4785e3fe490736d4ee50",
+        "profile":"<p>株式会社ヌーラボでBacklogの開発をしています。</p><p>RedmineからBacklogへのマイグレーションツールを作るのにScalaを使っています。</p><p><a href='https://github.com/nulab/BacklogMigration-Redmine'>https://github.com/nulab/BacklogMigration-Redmine</a></p><p>その他、隔週で「サルでもわかるScala」というタイトルで社内で勉強会していますので機会があれば是非お越しください。</p><p><i class='github icon'></i><a href='https://github.com/YuichiUchida'>YuichiUchida</a></p>",
+        "image":"https://www.gravatar.com/avatar/ff8cf1b55b7f53f7a49af20f9406efd5?s=200",
+        "description":"<p>Play Framework と Scala を使った開発を学べるハンズオン<br><a href='http://qiita.com/yuichi0301/items/ead86d0251b954f07935'>Play Frameworkハンズオン - Qiita</a></p><p>参加希望の方は事前に下記の準備をお願いします。<br><a href='http://qiita.com/yuichi0301/items/4785e3fe490736d4ee50'>Play Frameworkハンズオン環境構築 - Qiita</a></p>",
+        "rowspan":"4"
+      }
+    ]
+  },
+  {
+    "start":"14:45",
+    "end": "15:00",
+    "break": true,
+    "title": "休憩 (15分)",
+    "colspan":"2"
+  },
+  {
+    "start":"15:00",
+    "end": "15:20",
+    "contents":
+    [
+      {
+        "id":"s14",
+        "title":"Play2+SlickだけじゃないScalaのWeb/DBフレームワーク事情",
+        "speaker":"竹添 直樹",
+        "slide":"http://www.slideshare.net/takezoe/scala-frameworks-for-web-application-2016",
+        "profile":"<p>株式会社ビズリーチ所属。Scalaを愛するJVM系プログラマ。業務の傍らOSS開発や執筆活動を行っています。</p><p><i class='twitter icon'></i><a href='https://twitter.com/takezoen'>takezoen</a></p><p><i class='github icon'></i><a href='https://github.com/takezoe'>takezoe</a></p><p>Blog: <a href='http://takezoe.hatenablog.com/'>http://takezoe.hatenablog.com/</a></p>",
+        "image":"http://btbb.jp/img/speakers/takezoe.jpg",
+        "description":"<p>弊社ではこれまでScalaの標準的なフレームワークであるPlay2およびSlickを使用してきましたが、マイクロサービスとの親和性や性能面、学習コストなどの点においてより適したフレームワークへの移行を模索しています。</p><p>このセッションでは移行先としてどのようなフレームワークを検討しているのか？についてお話しさせていただきます。</p>"
+      },
+      {
+        "id":"s15",
+        "title":"Akkaで実現するステートフルでスケーラブルなアーキテクチャ",
+        "speaker":"前出 祐吾、杉本 貴史",
+        "slide":"http://www.slideshare.net/yugolf/akka-66885408",
+        "movie":"https://youtu.be/niPnG7CCpHk",
+        "profile":"<h3>前出 祐吾</h3><p>TIS株式会社 生産革新本部 生産革新部 生産技術R&D室所属</p><p>スケーラブルでレジリエントなシステムを求め、リアクティブシステムの活用検証に取り組む傍ら、リアクティブシステムのコンサルティングサービスを提供しています。</p><p><i class='github icon'></i><a href='https://github.com/yugolf'>yugolf</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/yugolf'>yugolf</a></p>",
+        "image":"http://summit.scala-kansai.org/2015/images/speakers/maede.png",
+        "description":"<p>ステートレスなアーキテクチャの場合、スケーリングは比較的簡単です。</p><p>しかし、高度なビジネス要件に答えるため、時にはステートフルな設計も必要になるのではないでしょうか。</p><p>そこで、Akka Cluster、Akka Cluster Sharding、Akka PersistenceといったAkkaの機能を効果的に使い、ステートフルでスケーラブル、かつ、レジリエンスを実現するアーキテクチャを紹介します。</p><p>ワークロードの増加によるスケールアップ時やサーバダウン時のShardの振る舞いをデモを交えて紹介する予定です。</p>",
+        "speaker2":"杉本 貴史",
+        "image2":"https://avatars0.githubusercontent.com/u/13145001",
+        "profile2":"<h3>杉本 貴史</h3><p>TIS株式会社 生産革新本部 生産革新部 生産技術R&D室所属</p><p>スケーラブルでレジリエントなシステムを求め、リアクティブシステムの活用検証に取り組む傍ら、リアクティブシステムのコンサルティングサービスを提供しています。</p><p>趣味はJavaScriptでChrome拡張を作ることです。</p><p><i class='github icon'></i><a href='https://github.com/tksugimoto'>tksugimoto</a></p>"
+      }
+    ]
+  },
+  {
+    "start":"15:25",
+    "end": "15:45",
+    "contents":
+    [
+      {
+        "id":"s16",
+        "title":"広告とScalaのマーベリック式開発スタイル",
+        "speaker":"苗村 教行",
+        "profile":"<p>広告系の企業で開発ディレクターやってます。</p>",
+        "image":"/images/speakers/naemura.png",
+        "description":"<p>Scalaで広告を開発するマーベリックでやってきた開発スタイルを紹介します！</p>"
+      },
+      {
+        "id":"s17",
+        "title":"Akka Clusterのネットワーク分断耐性設計",
+        "speaker":"安田 裕介",
+        "slide":"http://www.slideshare.net/TanUkkii/akka-cluster-66880662",
+        "movie":"https://youtu.be/Eszd1GEcOjE",
+        "profile":"<p>Akka enthusiast.</p><p><i class='github icon'></i><a href='https://github.com/TanUkkii007'>TanUkkii007</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/TanUkkii007'>TanUkkii007</a></p>",
+        "image":"https://avatars1.githubusercontent.com/u/2936722?v=3&s=460",
+        "description":"<p>Akka Clusterは分散システムを構築するためのライブラリだ。Akka Clusterは基本的な機能を提供するのみなので、ネットワーク分断耐性の設計はアプリケーション開発者が考えなければならない。アプリケーションで整合性が求められないことは稀で、Dynamoスタイルのネットワーク分断耐性の仕組みは非常に高度なため、CAPの定理におけるCPサイドを考える。このときAkka Clusterでどのようにネットワーク分断耐性の実現が可能なのか解説する。</p>"
+      }
+    ]
+  },
+  {
+    "start":"15:45",
+    "end": "16:00",
+    "break": true,
+    "title": "休憩 (15分)"
+  },
+  {
+    "start":"16:00",
+    "end": "16:45",
+    "contents":
+    [
+      {
+        "id":"s18",
+        "title":"sbt再入門",
+        "speaker":"高橋 俊幸",
+        "movie":"https://youtu.be/aKxx6w8Ua6k",
+        "profile":"<p>flyway-play, scala-csv, slick-joda-mapper, sbt-musical などを開発しています。</p><p><i class='github icon'></i><a href='https://github.com/tototoshi'>tototoshi</a></p>",
+        "image":"https://avatars1.githubusercontent.com/u/264469",
+        "description":"<p>Scalaの開発環境は決して複雑ではありません。</p><p>sbtを起動するだけで規模の大小に関わらず開発を始められます。</p><p>とはいえsbtはその多機能さから複雑で難解なものと認識され、仕組みについては知らずに使っているScalaプログラマも多いようです。その結果、Scalaの開発環境そのものについての誤解や混乱が生じているように感じています。</p><p>本セッションではsbtの基本思想と概念について再確認をし、build.sbtを理解して書けることを目指します。</p><p>加えて最近のScala開発環境の話題を取り上げ、適材適所で使うためにそれぞれの意義や使いどころについて考えます。</p>"
+      },
+      {
+        "id":"s19",
+        "title":"今からはじめる Lens/Prism",
+        "speaker":"Naoki Aoyama (@aoiroaoino)",
+        "slide":"http://www.slideshare.net/AoiroAoino/lensprism",
+        "profile":"<p>アドテク系企業でScala書くお仕事してます。猫とカレーとヒトカラが大好き。Monocle のコミッターやってます。</p><p><i class='twitter icon'></i><a href='https://twitter.com/AoiroAoino'>AoiroAoino</a></p><p><i class='github icon'></i><a href='https://github.com/aoiroaoino'>aoiroaoino</a></p>",
+        "image":"https://pbs.twimg.com/profile_images/556312366862708736/jmQUaeoW.jpeg",
+        "description":"<p>Lens の基本から始まり、実用例を踏まえつつ、Scala の Lens 事情をお話ししたいと思います。</p>"
+      },
+      {
+        "id":false,
+        "title":"-",
+        "speaker":"",
+        "image":"",
+        "description":""
+      }
+    ]
+  },
+  {
+    "start":"16:45",
+    "end": "17:00",
+    "break": true,
+    "title": "休憩 (15分)"
+  },
+  {
+    "start":"17:00",
+    "end": "17:45",
+    "contents":
+    [
+      {
+        "id":"s20",
+        "title":"Asakusa FrameworkとScalaの密かな関係",
+        "speaker":"ひしだま",
+        "slide":"http://www.slideshare.net/hishidama/asakusa-frameworkscala",
+        "profile":"<p>最近はAsakusaアプリケーションを書く仕事をしています。</p><p><a href='http://www.ne.jp/asahi/hishidama/home/tech/index.html'>http://www.ne.jp/asahi/hishidama/home/tech/index.html</a><p>",
+        "image":false,
+        "description":"<p>Asakusa Frameworkは、分散処理するバッチアプリケーションを開発・実行する為のフレームワークです。実行基盤としてHadoop・Spark・M3BPを利用できます。</p><p>自分がScalaやAsakusaFWを知った経緯の話や、Scalaと比較しつつAsakusaFWの紹介をしたいと思います。</p>"
+      },
+      {
+        "id":"s21",
+        "title":"scala.collection 再入門",
+        "speaker":"amaya",
+        "slide":"https://docs.com/ito-ryuichi/4065/scala-collection",
+        "movie":"https://youtu.be/hKYqSLpv7HE",
+        "profile":"<p>グラフ処理や自然言語処理と戯れているScalaが好きな学生です</p><p><i class='twitter icon'></i><a href='https://twitter.com/amaya382'>amaya382</a></p><p><i class='github icon'></i><a href='https://github.com/amaya382'>amaya382</a></p><p>HP: <a href='http://sapphire.in.net'>http://sapphire.in.net</a></p>",
+        "image":"https://pbs.twimg.com/profile_images/2888329059/491aa8f5d33a892852bada97061e4eb1_400x400.png",
+        "description":"<p>Scalaを利用していれば誰もがお世話になるScala標準ライブラリのscala.collectionについて, ちょっとアカデミックなアルゴリズムとデータ構造の話からプラクティカルなCollectionの選び方や操作方法まで一通りご紹介します. Collectionってどうなっているの？どれをどう使えばいいの？といった疑問を持つ初〜中級者を対象とします.</p><p>(なお, 本セッションは第3回Scala関西勉強会で行ったものを拡充した内容となる予定です)</p>"
+      },
+      {
+        "id":false,
+        "title":"-",
+        "speaker":"",
+        "image":"",
+        "description":""
+      }
+    ]
+  }
+]

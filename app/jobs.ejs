@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scala関西 Summit 2016 - スポンサー企業 求人・製品情報</title>
+    <meta property="og:title" content="Scala関西 Summit 2016" />
+    <meta property="og:description" content="Scala関西 Summit 2016 スポンサー企業 求人・製品情報" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://summit.scala-kansai.org/jobs.html" />
+    <meta property="og:image" content="http://summit.scala-kansai.org/images/thumbnail.png" />
+    <meta property="og:site_name" content="Scala関西 Summit 2016">
+    <meta property="fb:app_id" content="1580317205586711">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.ico"/>
+    <link rel="stylesheet" href="styles/vendor-49ef0306ec.css">
+    <link rel="stylesheet" href="styles/main-53bc1de3cc.css">
+    <script src="scripts/vendor-b3cb616551.js"></script>
+    <script src="scripts/vendor/modernizr-9d550bd14f.js"></script>
+  </head>
+  <body>
+  <% include _common/header %>
+    <div class="main container jobs">
+      <div class="ui page grid">
+        <div class="row">
+          <div class="column">
+            <ul class="sns">
+              <li>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://summit.scala-kansai.org/jobs.html" data-hashtags="scala_ks">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+              </li>
+              <li>
+                <a href="http://b.hatena.ne.jp/entry/http://summit.scala-kansai.org/jobs.html" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+              </li>
+              <li>
+                <div class="fb-share-button" data-href="http://summit.scala-kansai.org/jobs.html" data-layout="button_count"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <h1 class="section ui header">
+              <i class="announcement icon"></i>
+              <div class="content">
+                Job Offer &amp; Advertising
+                <div class="sub header">求人・広告</div>
+              </div>
+            </h1>
+          </div>
+        </div>
+        <% jobs.gold.forEach(function(job){ %>
+          <a class="anchor" name="<%= job.link %>"></a>
+          <div class="row">
+            <div class="column">
+              <div class="ui tall stacked segment">
+                <h2 class="ui header">
+                  <%= job.name %>
+                  <div class="sub header"><%= job.title %></div>
+                </h2>
+                <a href="<%= job.companyUrl %>"><img class="ui left floated image jobs-logo gold" src="images/sponsors/<%= job.logo %>"></a>
+                <% job.message.forEach(function(message){ %>
+                <p>
+                  <%- message %>
+                </p>
+                <% }) %>
+                <a class="ui right floated teal button" href="<%= job.offerPageUrl %>">
+                  <%= job.buttonTitleToOfferPage %><i class="angle double right icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+      <div class="ui page grid">
+        <div class="row">
+          <div class="column">
+            <div class="ui divided items">
+              <% jobs.silver.forEach(function(job){ %>
+              <a class="anchor" name="<%= job.link %>"></a>
+              <div class="item">
+                <div class="image">
+                  <a href="<%= job.companyUrl %>">
+                    <img src="images/sponsors/<%= job.logo %>" class="jobs-logo silver">
+                  </a>
+                </div>
+                <div class="content">
+                  <h3 class="header"><%= job.name %></h3>
+                  <% job.message.forEach(function(message){ %>
+                  <p>
+                    <%- message %>
+                  </p>
+                  <% }) %>
+                  <div class="extra">
+                    <a class="ui right floated teal button" href="<%= job.offerPageUrl %>">
+                      <%= job.buttonTitleToOfferPage %><i class="angle double right icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <% }) %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% include _common/footer %>
+</body>
+</html>

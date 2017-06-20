@@ -1,0 +1,43 @@
+[
+  {
+    "name": "山崎 好洋",
+    "image": "images/icons/yamasaki.JPG",
+    "url": "https://twitter.com/44x1carbon",
+    "meta": "チームリーダー"
+  },
+  {
+    "name": "emayami",
+    "image": "images/icons/miyamae.jpg",
+    "url": "https://twitter.com/emayami_r"
+  },
+  {
+    "name": "山腰 知典",
+    "image": "images/icons/yamagoshi.jpeg",
+    "url": "https://twitter.com/ymgn_ll"
+  },
+  {
+    "name": "mstgn",
+    "image": "images/icons/morinaka.jpg",
+    "url": "https://twitter.com/m_mstgn"
+  },
+  {
+    "name": "日下部拓人",
+    "image": "images/icons/kusakabe.jpeg",
+    "url": "https://www.facebook.com/takuto.kusakabe"
+  },
+  {
+    "name": "そぉい。",
+    "image": "images/icons/tkegawa.JPG",
+    "url": "http://twitter.com/tttyya"
+  },
+  {
+    "name": "Haku",
+    "image": "images/icons/haku.jpg",
+    "url": "https://twitter.com/mogus_workshop"
+  },
+  {
+    "name": "古賀 友輝（がっちゃん）",
+    "image": "images/icons/koga.jpg",
+    "url": "https://twitter.com/ahaha0807_alg"
+  }
+]

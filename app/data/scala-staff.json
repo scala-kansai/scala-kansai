@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Abe Asami",
+    "image": "images/icons/kinoko.png",
+    "url": "https://twitter.com/aa7th",
+    "meta": "実行委員長"
+  },
+  {
+    "name": "Kasuya Daisuke",
+    "image": "images/icons/daisky.png",
+    "url": "https://twitter.com/daiksy"
+  },
+  {
+    "name": "Okada Ryuichi",
+    "image": "images/icons/ryu1.png",
+    "url": "https://twitter.com/ryu1_okd"
+  },
+  {
+    "name": "Kunihira Kiyotaka",
+    "image": "images/icons/kuchitama.png",
+    "url": "https://twitter.com/Kuchitama"
+  },
+  {
+    "name": "Kitora Naoki",
+    "image": "images/icons/kitora.png",
+    "url": "https://twitter.com/kitora_naoki"
+  },
+  {
+    "name": "amaya",
+    "image": "https://pbs.twimg.com/profile_images/2888329059/491aa8f5d33a892852bada97061e4eb1_400x400.png",
+    "url": "https://twitter.com/amaya382"
+  },
+  {
+    "name": "Hayashi Daisuke",
+    "image": "images/icons/hayasshi.png",
+    "url": "https://twitter.com/hayasshi_"
+  },
+  {
+    "name": "Suguru Hamazaki",
+    "image": "images/icons/hamazy.jpeg",
+    "url": "https://twitter.com/hamazy"
+  },
+  {
+    "name": "matsushita",
+    "image": "images/icons/matsushi.png",
+    "url": "https://twitter.com/tomo_matsushi"
+  },
+  {
+    "name": "たむらてるみ",
+    "image": "https://pbs.twimg.com/profile_images/752026012402085888/etv1RwMA.jpg",
+    "url": "https://twitter.com/_uercus"
+  },
+  {
+    "name": "Yoshitaka Fujii",
+    "image": "https://pbs.twimg.com/profile_images/653197061446176768/BFasWa5L.jpg",
+    "url": "https://twitter.com/yoshiyoshifujii"
+  },
+  {
+    "name": "Yuta Adachi",
+    "image": "https://pbs.twimg.com/profile_images/695961348786655232/xdeT4gNi.jpg",
+    "url": "https://twitter.com/uadachi"
+  },
+  {
+    "name": "上條 忠久",
+    "image": "https://scontent.xx.fbcdn.net/v/t1.0-9/261564_109555712470718_3766272_n.jpg?oh=e92ee0259d31b65c137efda40377a3d1&oe=587F4752",
+    "url": "https://www.facebook.com/tadahisa.kamijo"
+  },
+  {
+    "name": "Go Tanaka",
+    "image": "https://pbs.twimg.com/profile_images/604829961908711424/dxMeQKFW.jpg",
+    "url": "https://twitter.com/tan_go238"
+  },
+  {
+    "name": "tamagoya",
+    "image": "https://pbs.twimg.com/profile_images/1117138947/____.png",
+    "url": "https://twitter.com/asaborake"
+  }
+]

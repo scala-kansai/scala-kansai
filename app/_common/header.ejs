@@ -1,0 +1,43 @@
+<div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1580317205586711',
+        xfbml      : true,
+        version    : 'v2.3'
+      });
+    };
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_KS/sdk.js#xfbml=1&version=v2.3&appId=1580317205586711";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="ui page grid">
+      <div class="column">
+        <div class="ui inverted menu fixed">
+          <a id="sidebar-toggle" class="launch item">
+            <i class="content icon"></i>
+            Menu
+          </a>
+          <div class="header item"><a href="index.html#top">Scala関西 Summit2017</a></div>
+          <div class="right menu">
+            <a class="item pc" href="index.html#questionnaire">Questionnaire</a>
+            <a class="item pc" href="index.html#speakers">Speakers</a>
+            <a class="item pc" href="index.html#sponsors">Sponsors</a>
+            <a class="item pc" href="index.html#venue">Venue</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui left vertical inverted labeled icon sidebar menu">
+      <a class="item" href="index.html#questionnaire">Questionnaire</a>
+      <a class="item" href="index.html#speakers">Speakers</a>
+      <a class="item" href="index.html#sponsors">Sponsors</a>
+      <a class="item" href="index.html#venue">Venue</a>
+    </div>

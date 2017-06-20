@@ -1,0 +1,32 @@
+[
+  {
+    "name": "エムオーテックス株式会社",
+    "url": "http://www.motex.co.jp",
+    "logo": "motex_w240.png"
+  },
+  {
+    "name": "株式会社サムライズム",
+    "url": "http://samuraism.com/",
+    "logo": "samuraism_w240.png"
+  },
+  {
+    "name": "株式会社インパス",
+    "url": "https://impath.co.jp/",
+    "logo": "impath_w240.png"
+  },
+  {
+    "name": "株式会社リンコード",
+    "url": "http://www.linkode.co.jp",
+    "logo": "linkode_w240.png"
+  },
+  {
+    "name": "株式会社はてな",
+    "url": "http://hatenacorp.jp/",
+    "logo": "hatena.svg"
+  },
+  {
+    "name": "株式会社ヌーラボ",
+    "url": "https://nulab-inc.com/ja/",
+    "logo": "nulab_w240.png"
+  }
+]
