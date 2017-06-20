@@ -1,4 +1,4 @@
-Scala関西Summit 2016公式サイト
+Scala関西Summit 2017公式サイト
 
 ## 環境準備
 npmとgulpを準備して、プロジェクト直下で `npm install` コマンドを実行。
@@ -22,15 +22,3 @@ npmとgulpを準備して、プロジェクト直下で `npm install` コマン�
 1. `make deploy` コマンドで反映
 1. Backlogのリポジトリのmasterへの修正反映をわすれずに！！
 
-## スポンサー情報追加手順
-1. ロゴ画像をリサイズする
-     - ロゴ画像置き場 https://drive.google.com/open?id=0B-gxuZxU10dzZnB4R01Pc1U2VEE
-     - Platinum: 420px*240px
-     - Gold: 300px*200px
-     - Silver: 240px*160px
-     - Bronze: 150px*100px
-1. `app/images/sponsors` にロゴ画像を配置
-1. `app/data/<プラン>-sponsors.json` に情報を追加
-    - スポンサー情報 https://docs.google.com/spreadsheets/d/1_JBFVcCpvQMizBKmKzNFAWljXKZOMdYDDUj0-0GL6U4/edit?usp=sharing
-    - 申し込み順になるようにしてください。
-1. あとは修正手順参照。
