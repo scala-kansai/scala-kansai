@@ -1,11 +1,14 @@
 all: build
 
-.PHONY: all build ejs copy clean
+.PHONY: all build ejs sass copy clean
 
-build: clean ejs copy
+build: clean ejs sass copy
 
 ejs:
 	gulp ejs
+
+sass:
+	gulp sass
 
 copy:
 	mkdir -p dist

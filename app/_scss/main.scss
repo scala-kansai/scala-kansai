@@ -1,0 +1,129 @@
+// bower:scss
+// endbower
+$accent_color: rgb(224, 123, 83);
+$theme_color: rgb(0, 181, 173);
+$theme_font_color: #FFFFFF;
+.logo {
+  max-width: 600px;
+  width: 100%;
+}
+// header menu style
+.ui.fixed.menu.header_menu {
+  background-color: $theme_color;
+  a.item, > a:not(.ui) {
+    color: $theme_font_color;
+  }
+}
+.ui.menu .item > a:not(.ui) {
+  color: $theme_font_color;
+}
+div {
+  .main.container {
+    padding: 40px 0;
+  }
+  .main.container.jobs {
+    padding: 80px 0;
+    .stacked.segment {
+      padding-bottom: 60px;
+    }
+  }
+  .masthead {
+    background: url(../images/background.jpg) 0 0 no-repeat;
+    background-size: cover;
+  }
+  .masthead-content {
+    background-color: rgba(255,255,255,0.6);
+    filter: alpha(opacity=60);
+    h1 {
+      font-size: 3.2em !important;
+    }
+    p {
+      font-size: 1.5em !important;
+    }
+  }
+  .contents {
+    padding: 30px 0;
+  }
+  .googlemap {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    iframe,
+    object,
+    embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.sns {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type:none;
+  overflow: hidden;
+  li {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  iframe {
+    margin: 0 !important;
+  }
+}
+.jobs-logo.gold {
+  width: 300px;
+}
+.jobs-logo.silver {
+  width: 180px;
+  height: 120px;
+}
+.logo-silver {
+  width: 240px;
+  height: 160px;
+}
+.session.title {
+  font-size: 1.2em;
+}
+.program.title {
+  font-size: 1.2em;
+}
+/*******************************
+          Responsive
+*******************************/
+@media only screen and (max-width : 790px) {
+  a#sidebar-toggle {
+    display: inline;
+  }
+  div {
+    .masthead-content {
+      padding: 10px 25px;
+    }
+    .right.menu {
+      display: none;
+    }
+    .sidebar.menu {
+      display: none;
+    }
+  }
+}
+@media only screen and (min-width : 791px) {
+  a#sidebar-toggle {
+    display: none;
+  }
+  div {
+    .masthead-content {
+      padding: 20px 100px;
+    }
+    .right.menu {
+      display: block;
+    }
+    .sidebar.menu {
+      display: block;
+    }
+  }
+}

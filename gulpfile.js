@@ -38,6 +38,15 @@ gulp.task("ejs", function() {
   	.pipe(gulp.dest("./dist"));
 });
 
+gulp.task('sass', function () {
+  return gulp.src('./app/_scss/**/*.scss')
+    .pipe($.sass({
+      outputStyle: 'nested',
+      onError: console.error.bind(console, 'Sass error:')
+    }))
+    .pipe(gulp.dest('./dist/styles/'));
+});
+
 gulp.task('deploy', function() {
   return gulp.src('./dist/**/*')
     .pipe($.ghPages({
