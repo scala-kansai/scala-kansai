@@ -67,31 +67,6 @@ semantic.ready = function() {
       onBottomPassed: handler.activate.section,
       onTopPassedReverse: handler.activate.previous
     });
-    $('.ui.form')
-      .form({
-        email: {
-          identifier : 'email',
-          rules: [
-            {
-              type   : 'email',
-              prompt : 'Please enter a valid e-mail'
-            }
-          ]
-        },
-        ccEmail: {
-          identifier : 'cc-email',
-          optional   : true,
-          rules: [
-            {
-              type   : 'email',
-              prompt : 'Please enter a valid second e-mail'
-            }
-          ]
-        },
-      })
-    ;
-    $('.demo.modal')
-      .modal();
     $('.standard.session.modal')
       .modal('attach events', '.session.title');
 };
