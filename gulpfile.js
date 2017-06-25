@@ -5,15 +5,15 @@ var gulp = require('gulp');
 var ejs = require("gulp-ejs");
 var $ = require('gulp-load-plugins')();
 
-var timetable = require("./app/data/timetable.json");
-var platinumSponsors = require("./app/data/platinum-sponsors.json");
-var goldSponsors = require("./app/data/gold-sponsors.json");
-var silverSponsors = require("./app/data/silver-sponsors.json");
-var bronzeSponsors = require("./app/data/bronze-sponsors.json");
-var jobs = require("./app/data/jobs.json");
-var scalaStaff = require("./app/data/scala-staff.json");
-var networkStaff = require("./app/data/network-staff.json");
-var studentStaff = require("./app/data/student-staff.json");
+var timetable = require("./app/_data/timetable.json");
+var platinumSponsors = require("./app/_data/platinum-sponsors.json");
+var goldSponsors = require("./app/_data/gold-sponsors.json");
+var silverSponsors = require("./app/_data/silver-sponsors.json");
+var bronzeSponsors = require("./app/_data/bronze-sponsors.json");
+var jobs = require("./app/_data/jobs.json");
+var scalaStaff = require("./app/_data/scala-staff.json");
+var networkStaff = require("./app/_data/network-staff.json");
+var studentStaff = require("./app/_data/student-staff.json");
 
 gulp.task("ejs", function() {
   gulp.src("./app/index.ejs")
