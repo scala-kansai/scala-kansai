@@ -4,6 +4,7 @@
 var gulp = require('gulp');
 var ejs = require("gulp-ejs");
 var $ = require('gulp-load-plugins')();
+var browserSync =require('browser-sync');
 
 var timetable = require("./app/_data/timetable.json");
 var platinumSponsors = require("./app/_data/platinum-sponsors.json");
@@ -47,6 +48,26 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./dist/styles/'));
 });
 
+gulp.task('watch', ['ejs', 'sass'],function () {
+  gulp.watch(['./app/_scss/**/*.scss'], ['sass']);
+  gulp.watch([
+    './app/*.ejs',
+    './app/_common/**/*.ejs',
+    './app/_contents/**/*.ejs',
+  ], ['ejs']);
+});
+
+gulp.task('browser-sync', function() {
+  browserSync.init(null, {
+    server: './dist',
+    port: 5000,
+    ws: true,
+    files: ["./dist/**/*"],
+    browser: "google chrome",
+  });
+});
+
+
 gulp.task('deploy', function() {
   return gulp.src('./dist/**/*')
     .pipe($.ghPages({
@@ -54,6 +75,8 @@ gulp.task('deploy', function() {
     }));
 });
 
-gulp.task('default', function() {
+gulp.task('default', [ 'browser-sync', 'watch'], function() {
   // place code for your default task here
 });
+
+
