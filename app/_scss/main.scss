@@ -1,64 +1,81 @@
 $accent_color: rgb(224, 123, 83);
-$theme_color: rgb(0, 181, 173);
+$theme_color: #C82C32;
 $theme_font_color: #FFFFFF;
 .logo {
   max-width: 600px;
   width: 100%;
 }
+
+body {
+  background-color: $theme_color;
+}
+
 // header menu style
 .ui.fixed.menu.header_menu {
   background-color: $theme_color;
+  padding: 10px;
   a.item, > a:not(.ui) {
     color: $theme_font_color;
+  }
+  .header.item {
+    background-color: transparent;
+  }
+  .recruit-link {
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: $theme_color;
+    background-color: $theme_font_color;
   }
 }
 .ui.menu .item > a:not(.ui) {
   color: $theme_font_color;
 }
-div {
-  .main.container {
-    padding: 40px 0;
-  }
-  .main.container.jobs {
-    padding: 80px 0;
-    .stacked.segment {
-      padding-bottom: 60px;
-    }
-  }
-  .masthead {
-    background: url(../images/background.jpg) 0 0 no-repeat;
-    background-size: cover;
-  }
-  .masthead-content {
-    background-color: rgba(255,255,255,0.6);
-    filter: alpha(opacity=60);
-    h1 {
-      font-size: 3.2em !important;
-    }
-    p {
-      font-size: 1.5em !important;
-    }
-  }
-  .contents {
-    padding: 30px 0;
-  }
-  .googlemap {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-    iframe,
-    object,
-    embed {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
+
+.main.container {
+  padding: 60px 0;
+  margin: 0px 20px;
+  background: #f7f7f7;
+}
+.main.container.jobs {
+  padding: 80px 0;
+  .stacked.segment {
+    padding-bottom: 60px;
   }
 }
+.masthead {
+  background: url(../images/background.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+.masthead-content {
+  background-color: rgba(255,255,255,0.6);
+  filter: alpha(opacity=60);
+  h1 {
+    font-size: 3.2em !important;
+  }
+  p {
+    font-size: 1.5em !important;
+  }
+}
+.contents {
+  padding: 30px 0;
+}
+.googlemap {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  iframe,
+  object,
+  embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .sns {
   margin-left: 0;
   padding-left: 0;
