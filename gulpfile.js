@@ -68,31 +68,6 @@ gulp.task('browser-sync', function() {
   });
 });
 
-gulp.task( 'copy-images', function() {
-  return gulp.src(
-    [ './app/images/**/*' ],
-    { base: './app/images' }
-  )
-    .pipe( gulp.dest( './dist/images' ) );
-} );
-
-gulp.task( 'copy-styles', function() {
-  return gulp.src(
-    [ './app/styles/**/*' ],
-    { base: './app/styles' }
-  )
-    .pipe( gulp.dest( './dist/styles' ) );
-} );
-
-
-gulp.task( 'copy-scripts', function() {
-  return gulp.src(
-    [ './app/scripts/**/*' ],
-    { base: './app/scripts' }
-  )
-    .pipe( gulp.dest( './dist/scripts' ) );
-} );
-
 gulp.task('deploy', function() {
   return gulp.src('./dist/**/*')
     .pipe($.ghPages({
@@ -100,7 +75,7 @@ gulp.task('deploy', function() {
     }));
 });
 
-gulp.task('default', [ 'copy-scripts', 'copy-images', 'copy-styles','browser-sync', 'watch'], function() {
+gulp.task('default', [ 'browser-sync', 'watch'], function() {
   // place code for your default task here
 });
 
