@@ -78,9 +78,18 @@ gulp.task( 'copy-images', function() {
 gulp.task( 'copy-styles', function() {
   return gulp.src(
     [ './app/styles/**/*' ],
-    { base: './app/images' }
+    { base: './app/styles' }
   )
     .pipe( gulp.dest( './dist/styles' ) );
+} );
+
+
+gulp.task( 'copy-scripts', function() {
+  return gulp.src(
+    [ './app/scripts/**/*' ],
+    { base: './app/scripts' }
+  )
+    .pipe( gulp.dest( './dist/scripts' ) );
 } );
 
 gulp.task('deploy', function() {
@@ -90,7 +99,7 @@ gulp.task('deploy', function() {
     }));
 });
 
-gulp.task('default', [ 'copy-images', 'copy-styles','browser-sync', 'watch'], function() {
+gulp.task('default', [ 'copy-scripts', 'copy-images', 'copy-styles','browser-sync', 'watch'], function() {
   // place code for your default task here
 });
 
