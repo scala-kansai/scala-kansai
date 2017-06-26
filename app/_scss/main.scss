@@ -48,6 +48,9 @@ body {
 .main.container {
   padding-top: 60px;
   background: #ffffff;
+  .section {
+    padding-bottom: 20px;
+  }
   .section .header .icon {
     color: $theme_color;
   }
@@ -190,23 +193,6 @@ body {
   iframe {
     margin: 0 !important;
   }
-}
-.jobs-logo.gold {
-  width: 300px;
-}
-.jobs-logo.silver {
-  width: 180px;
-  height: 120px;
-}
-.logo-silver {
-  width: 240px;
-  height: 160px;
-}
-.session.title {
-  font-size: 1.2em;
-}
-.program.title {
-  font-size: 1.2em;
 }
 /*******************************
           Responsive
