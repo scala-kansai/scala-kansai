@@ -12,6 +12,7 @@
         </h1>
       </div>
     </div>
+
     <h2 class="ui header">Platinum</h2>
     <hr>
     <% sponsors.platinum.forEach(function(sponsor, index){ %>
@@ -36,84 +37,88 @@
         </div>
       </div>
     <% }) %>
+
     <h2 class="ui header">Gold</h2>
     <hr>
     <% sponsors.gold.forEach(function(sponsor, index){ %>
       <% if (index % 2 === 0) { %>
-      <div class="two column row">
+        <div class="two column row">
       <% } %>
-        <div class="column">
-          <div class="ui segment sponsor">
-            <a href="<%= sponsor.url %>">
-              <img class="ui centered image" src="images/sponsors/<%= sponsor.logo %>">
-            </a>
-            <h3 class="ui header"><a href="<%= sponsor.url %>"><%= sponsor.name %></a></h3>
-            <p>
-              <%= sponsor.introduction %>
-            </p>
-            <div class="sponsor__footer">
-              <% if(jobs.gold.some(function(s) { return s.name === sponsor.name })) {%>
-                <a href="<%= 'jobs.html#' + sponsor.name %>" class="large ui button sponsor-recruit">
-                  <i class="star icon"></i> <span>求人情報・広告を見る</span>
-                </a>
-              <% } %>
-            </div>
+      <div class="column">
+        <div class="ui segment sponsor">
+          <a href="<%= sponsor.url %>">
+            <img class="ui centered image" src="images/sponsors/<%= sponsor.logo %>">
+          </a>
+          <h3 class="ui header"><a href="<%= sponsor.url %>"><%= sponsor.name %></a></h3>
+          <p>
+            <%= sponsor.introduction %>
+          </p>
+          <div class="sponsor__footer">
+            <% if(jobs.gold.some(function(s) { return s.name === sponsor.name })) {%>
+              <a href="<%= 'jobs.html#' + sponsor.name %>" class="large ui button sponsor-recruit">
+                <i class="star icon"></i> <span>求人情報・広告を見る</span>
+              </a>
+            <% } %>
           </div>
         </div>
-      <% if (index % 2 === 1 || index === sponsors.gold.length - 1) { %>
       </div>
+      <% if (index % 2 === 1 || index === sponsors.gold.length - 1) { %>
+        </div>
       <% } %>
     <% }) %>
+
     <h2 class="ui header">Silver</h2>
     <hr>
     <% sponsors.silver.forEach(function(sponsor, index){ %>
       <% if (index % 3 === 0) { %>
-      <div class="three column row aligned">
+        <div class="three column row aligned">
       <% } %>
-        <div class="column">
-          <div class="ui segment sponsor">
-            <a href="<%= sponsor.url %>">
-              <img class="ui centered image" src="images/sponsors/<%= sponsor.logo %>" class="logo-silver">
-            </a>
-            <div class="sponsor__footer">
-              <% if(jobs.silver.some(function(s) { return s.name === sponsor.name })) {%>
-                <a href="<%= 'jobs.html#' + sponsor.name %>" class="large ui button sponsor-recruit">
-                  <i class="star icon"></i> <span>求人情報・広告を見る</span>
-                </a>
-              <% } %>
-            </div>
+      <div class="column">
+        <div class="ui segment sponsor">
+          <a href="<%= sponsor.url %>">
+            <img class="ui centered image" src="images/sponsors/<%= sponsor.logo %>" class="logo-silver">
+          </a>
+          <div class="sponsor__footer">
+            <% if(jobs.silver.some(function(s) { return s.name === sponsor.name })) {%>
+              <a href="<%= 'jobs.html#' + sponsor.name %>" class="large ui button sponsor-recruit">
+                <i class="star icon"></i> <span>求人情報・広告を見る</span>
+              </a>
+            <% } %>
           </div>
         </div>
-      <% if (index % 3 === 2 || index === sponsors.silver.length - 1) { %>
       </div>
+      <% if (index % 3 === 2 || index === sponsors.silver.length - 1) { %>
+        </div>
       <% } %>
     <% }) %>
+
     <h2 class="ui header">Bronze</h2>
     <hr>
     <% sponsors.bronze.forEach(function(sponsor, index){ %>
-      <% if (index % 5 === 0) { %>
-      <div class="five column row aligned">
+      <% if (index % 3 === 0) { %>
+        <div class="five column row aligned">
       <% } %>
       <div class="column">
         <a href="<%= sponsor.url %>">
           <img src="images/sponsors/<%= sponsor.logo %>">
         </a>
       </div>
-      <% if (index % 3 === 2 || index === sponsors.silver.length - 1) { %>
-      </div>
+      <% if (index % 3 === 2 || index === sponsors.bronze.length - 1) { %>
+        </div>
       <% } %>
     <% }) %>
 
-  </div>
-  <h2>スポンサー募集 Call for Sponsors</h2>
-  <hr>
-  <div class="row call-for-sponsors">
-    <div class="column">
-      <p>Scala関西 Summitではスポンサー企業様を募集しております。下記の資料をご覧になった上で<a href="https://docs.google.com/forms/d/e/1FAIpQLSdAJ_dj1dPGuiCkirb1rNuQarksha7Jy8DKoCd7lZpfk65ChQ/viewform?usp=sf_link">こちらのフォーム</a>からお申込みください。</p>
-      <p>※ Platinum・Goldプランは定数に達したため締め切りました。</p>
-      <a class="big ui button sponsor-information" href="https://drive.google.com/open?id=0B-gxuZxU10dzR1FjTnlJb01lZkk">
-        <i class="file pdf outline icon"></i>Scala関西 Summit 2017 スポンサーシップのご案内
-      </a>
+    <h2>スポンサー募集 Call for Sponsors</h2>
+    <hr>
+    <div class="row call-for-sponsors">
+      <div class="column">
+        <p>Scala関西 Summitではスポンサー企業様を募集しております。下記の資料をご覧になった上で<a href="https://docs.google.com/forms/d/e/1FAIpQLSdAJ_dj1dPGuiCkirb1rNuQarksha7Jy8DKoCd7lZpfk65ChQ/viewform?usp=sf_link">こちらのフォーム</a>からお申込みください。</p>
+        <p>※ Platinum・Goldプランは定数に達したため締め切りました。</p>
+        <a class="big ui button sponsor-information" href="https://drive.google.com/open?id=0B-gxuZxU10dzR1FjTnlJb01lZkk">
+          <i class="file pdf outline icon"></i>Scala関西 Summit 2017 スポンサーシップのご案内
+        </a>
+      </div>
     </div>
+
   </div>
 </div> <!-- sponsors -->
