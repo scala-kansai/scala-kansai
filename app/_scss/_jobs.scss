@@ -1,0 +1,47 @@
+.jobs-logo.platinum {
+  width: 300px;
+}
+
+.jobs-logo.gold {
+  width: 300px;
+}
+.jobs-logo.silver {
+  width: 180px;
+  height: 120px;
+}
+.logo-silver {
+  width: 240px;
+  height: 160px;
+}
+.session.title {
+  font-size: 1.2em;
+}
+.program.title {
+  font-size: 1.2em;
+}
+
+.main.container.jobs {
+  padding: 80px 0;
+  .stacked.segment {
+    padding-bottom: 60px;
+  }
+  & .header {
+    background-color: transparent;
+  }
+
+  & .header i.icon {
+    color: $theme_color;
+  }
+}
+
+.job {
+  position: relative;
+  .offerpage-link {
+    background-color: $theme_color;
+    color: $theme_font_color;
+  }
+  .anchor {
+    position: absolute;
+    top: -80px;
+  }
+}

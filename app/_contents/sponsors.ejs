@@ -26,9 +26,11 @@
               <%- sponsor.introduction %>
             </p>
             <div class="sponsor__footer">
-              <a href="" class="large ui button sponsor-recruit">
-                <i class="star icon"></i> <span>求人情報・広告を見る</span>
-              </a>
+              <% if(jobs.platinum.some(function(s) { return s.name === sponsor.name })) {%>
+                <a href="<%= 'jobs.html#' + sponsor.name %>" class="large ui button sponsor-recruit">
+                  <i class="star icon"></i> <span>求人情報・広告を見る</span>
+                </a>
+              <% } %>
             </div>
           </div>
         </div>
@@ -50,9 +52,11 @@
               <%= sponsor.introduction %>
             </p>
             <div class="sponsor__footer">
-              <a href="" class="large ui button sponsor-recruit">
-                <i class="star icon"></i> <span>求人情報・広告を見る</span>
-              </a>
+              <% if(jobs.gold.some(function(s) { return s.name === sponsor.name })) {%>
+                <a href="<%= 'jobs.html#' + sponsor.name %>" class="large ui button sponsor-recruit">
+                  <i class="star icon"></i> <span>求人情報・広告を見る</span>
+                </a>
+              <% } %>
             </div>
           </div>
         </div>
@@ -72,9 +76,11 @@
               <img class="ui centered image" src="images/sponsors/<%= sponsor.logo %>" class="logo-silver">
             </a>
             <div class="sponsor__footer">
-              <a href="" class="large ui button sponsor-recruit">
-                <i class="star icon"></i> <span>求人情報・広告を見る</span>
-              </a>
+              <% if(jobs.silver.some(function(s) { return s.name === sponsor.name })) {%>
+                <a href="<%= 'jobs.html#' + sponsor.name %>" class="large ui button sponsor-recruit">
+                  <i class="star icon"></i> <span>求人情報・広告を見る</span>
+                </a>
+              <% } %>
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ $theme_font_color: #FFFFFF;
 
 @import "mixin";
 @import "_contents/sponsors";
+@import "jobs";
 
 body {
   background-color: $theme_color;
@@ -52,12 +53,7 @@ body {
     background: #f7f7f7;
   }
 }
-.main.container.jobs {
-  padding: 80px 0;
-  .stacked.segment {
-    padding-bottom: 60px;
-  }
-}
+
 .masthead {
   width: 100%;
   margin: 0 auto;
@@ -151,6 +147,17 @@ body {
 .contents {
   padding: 30px 0;
 }
+
+.footer {
+  background-color: $theme_color;
+  color: $theme_font_color;
+  padding: 10px;
+  .previous-links a {
+    color: $theme_font_color;
+    margin: 4px;
+  }
+}
+
 .googlemap {
   position: relative;
   padding-bottom: 56.25%;

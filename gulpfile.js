@@ -30,7 +30,8 @@ gulp.task("ejs", function() {
         scala: scalaStaff,
         network: networkStaff,
         student: studentStaff
-      }
+      },
+      jobs: jobs
     }, {"ext": ".html"}))
   	.pipe(gulp.dest("./dist"));
 
