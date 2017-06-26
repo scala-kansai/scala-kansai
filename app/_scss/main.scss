@@ -1,8 +1,9 @@
+@import "mixin";
+
 $accent_color: rgb(224, 123, 83);
 $theme_color: #C82C32;
 $theme_font_color: #FFFFFF;
 .logo {
-  max-width: 600px;
   width: 100%;
 }
 
@@ -20,20 +21,29 @@ body {
   .header.item {
     background-color: transparent;
   }
-  .recruit-link {
-    padding: 10px 15px;
-    border-radius: 3px;
-    color: $theme_color;
-    background-color: $theme_font_color;
-  }
 }
+
+.sidebar {
+  text-align: center;
+  width: auto;
+}
+
+.recruit-link {
+  padding: 10px 15px;
+  border-radius: 3px;
+  color: $theme_color;
+  background-color: $theme_font_color;
+}
+
 .ui.menu .item > a:not(.ui) {
   color: $theme_font_color;
 }
 
 .main.container {
   padding: 60px 0;
-  margin: 0px 20px;
+  @include mediaPC() {
+    margin: 0px 20px;
+  }
   background: #f7f7f7;
 }
 .main.container.jobs {
@@ -43,8 +53,81 @@ body {
   }
 }
 .masthead {
-  background: url(../images/background.jpg) 0 0 no-repeat;
-  background-size: cover;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  @include mediaPC() {
+    padding: 30px 0;
+    max-width: 1400px;
+    max-height: 600px;
+  }
+
+  .logo-area {
+    @include mediaPC() {
+      width: 36%;
+      max-width: 500px;
+    }
+
+    @include mediaTB() {
+      width: 100%;
+    }
+    order: 1;
+  }
+  .hero-area {
+
+    @include mediaPC() {
+      max-width: 800px;
+      width: 57%;
+      order: 3;
+    }
+
+    @include mediaTB() {
+      width: 100%;
+      order: 2;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .summary-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    @include mediaPC() {
+      width: 36%;
+      max-width: 500px;
+      order: 2;
+      align-items: flex-end;
+    }
+
+    @include mediaTB() {
+      width: 100%;
+      order: 3;
+      align-items: center;
+    }
+
+    .summary {
+      text-align: right;
+      @include mediaPC() {
+        margin: 40px 0px;
+      }
+      @include mediaTB() {
+        margin: 20px 0px;
+      }
+      &__row {
+        font-size: 1.3em;
+        margin-top: 20px;
+      }
+    }
+    .entry-button {
+      margin-top: 20px;
+      background-color: $theme_color;
+      color: $theme_font_color;
+    }
+  }
 }
 .masthead-content {
   background-color: rgba(255,255,255,0.6);

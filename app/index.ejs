@@ -15,38 +15,37 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.ico"/>
     <link rel="stylesheet" type="text/css" href="styles/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
   </head>
   <body>
   <% include _common/header %>
 
     <div class="main container">
       <a class="anchor" id="top"></a>
-      <div class="ui vertical segment masthead">
-        <img src="images/logo.png" class="logo" />
-        <div class="masthead-content">
-          <div class="ui padded grid ">
-            <div class="row">
-              <div class="column">
-                <p>関西最大級のScalaカンファレンス</p>
-              </div>
+      <div class="ui vertical masthead">
+        <div class="logo-area">
+          <img src="images/logo.png" class="logo" />
+        </div>
+        <div class="hero-area">
+          <img src="images/img_hero.svg" alt="">
+        </div>
+
+        <div class="summary-area">
+          <div class="summary">
+            <div class="summary__row">
+              <i class="calendar icon"></i> <span class="content">日程：2017年9月9日（土）</span>
             </div>
-            <div class="two column doubling row">
-              <div class="column">
-                <div class="ui header">
-                  <i class="calendar icon"></i>
-                  <div class="content">
-                    日程：2017年9月9日(土)
-                  </div>
-                </div>
-                <div class="ui header">
-                  <i class="map icon"></i>
-                  <div class="content">
-                    場所：天満研修センター
-                  </div>
-                </div>
-              </div>
+            <div class="summary__row">
+              <i class="compass icon"></i> <span class="content">場所：天満研修センター</span>
             </div>
           </div>
+          <a href="http://connpass.com/event/38349/" class="large animated fade ui button entry-button">
+            <div class="visible content"><i class="star icon"></i>参加登録はこちらから</div>
+            <div class="hidden content">Go!</div>
+          </a>
         </div>
       </div>
 
@@ -69,6 +68,7 @@
         </div>
       </div>
 
+      <% include _contents/timetable %>
       <% include _contents/questionnaire %>
       <div class="ui horizontal divider"><i class="heart icon"></i></div>
       <% include _contents/speakers %>
@@ -87,10 +87,6 @@
     </div>
 
     <% include _common/footer %>
-    <script
-      src="https://code.jquery.com/jquery-3.1.1.min.js"
-      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-      crossorigin="anonymous"></script>
     <script src="scripts/semantic.min.js"></script>
     <script src="scripts/main.js"></script>
 </body>
