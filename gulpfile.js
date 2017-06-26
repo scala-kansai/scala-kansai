@@ -67,6 +67,21 @@ gulp.task('browser-sync', function() {
   });
 });
 
+gulp.task( 'copy-images', function() {
+  return gulp.src(
+    [ './app/images/**/*' ],
+    { base: './app/images' }
+  )
+    .pipe( gulp.dest( './dist/images' ) );
+} );
+
+gulp.task( 'copy-styles', function() {
+  return gulp.src(
+    [ './app/styles/**/*' ],
+    { base: './app/images' }
+  )
+    .pipe( gulp.dest( './dist/styles' ) );
+} );
 
 gulp.task('deploy', function() {
   return gulp.src('./dist/**/*')
@@ -75,7 +90,7 @@ gulp.task('deploy', function() {
     }));
 });
 
-gulp.task('default', [ 'browser-sync', 'watch'], function() {
+gulp.task('default', [ 'copy-images', 'copy-styles','browser-sync', 'watch'], function() {
   // place code for your default task here
 });
 
