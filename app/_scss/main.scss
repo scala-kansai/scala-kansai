@@ -45,6 +45,9 @@ body {
 .main.container {
   padding-top: 60px;
   background: #ffffff;
+  .section .header .icon {
+    color: $theme_color;
+  }
   .section:nth-child(odd) {
     background: #f7f7f7;
   }
