@@ -22,69 +22,77 @@
   </head>
   <body>
   <% include _common/header %>
-
-    <div class="main container">
-      <a class="anchor" id="top"></a>
-      <div class="ui vertical masthead">
-        <div class="logo-area">
-          <img src="images/logo.png" class="logo" />
-        </div>
-        <div class="hero-area">
-          <img src="images/img_hero.svg" alt="">
-        </div>
-
-        <div class="summary-area">
-          <div class="summary">
-            <div class="summary__row">
-              <i class="calendar icon"></i> <span class="content">日程：2017年9月9日（土）</span>
-            </div>
-            <div class="summary__row">
-              <i class="compass icon"></i> <span class="content">場所：天満研修センター</span>
-            </div>
+    <div class="wrapper">
+      <div class="main container">
+        <a class="anchor" id="top"></a>
+        <div class="ui vertical masthead">
+          <div class="logo-area">
+            <img src="images/logo.png" class="logo" />
           </div>
-          <a href="http://connpass.com/event/38349/" class="large animated fade ui button entry-button">
-            <div class="visible content"><i class="star icon"></i>参加登録はこちらから</div>
-            <div class="hidden content">Go!</div>
-          </a>
-        </div>
-      </div>
+          <div class="hero-area">
+            <img src="images/img_hero.svg" alt="">
+          </div>
 
-      <div class="ui page grid">
-        <div class="row">
-          <div class="column">
-            <ul class="sns">
-              <li>
-                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://summit.scala-kansai.org/" data-hashtags="scala_ks">Tweet</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-              </li>
-              <li>
-                <a href="http://b.hatena.ne.jp/entry/http://summit.scala-kansai.org/" class="hatena-bookmark-button" data-hatena-bookmark-title="Scala関西Summit 2017" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
-              </li>
-              <li>
-                <div class="fb-like" data-href="http://summit.scala-kansai.org/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
-              </li>
-            </ul>
+          <div class="summary-area">
+            <div class="summary">
+              <div class="summary__row">
+                <i class="calendar icon"></i> <span class="content">日程：2017年9月9日（土）</span>
+              </div>
+              <div class="summary__row">
+                <i class="compass icon"></i> <span class="content">場所：天満研修センター</span>
+              </div>
+            </div>
+            <a href="http://connpass.com/event/38349/" class="large animated fade ui button entry-button">
+              <div class="visible content"><i class="star icon"></i>参加登録はこちらから</div>
+              <div class="hidden content">Go!</div>
+            </a>
           </div>
         </div>
-      </div>
 
-      <% include _contents/timetable %>
-      <% include _contents/venue %>
-      <% include _contents/sponsors %>
-      <% include _contents/special %>
-      <% include _contents/staff.ejs %>
-
-
-      <div class="contents">
         <div class="ui page grid">
-          <div class="column">
-            ※ 当イベントに関するお問い合わせは<a href="http://goo.gl/forms/0jgvS6ufhL">こちらのフォーム</a>からお願いします。
+          <div class="row">
+            <div class="column">
+              <ul class="sns">
+                <li>
+                  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://summit.scala-kansai.org/" data-hashtags="scala_ks">Tweet</a>
+                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </li>
+                <li>
+                  <a href="http://b.hatena.ne.jp/entry/http://summit.scala-kansai.org/" class="hatena-bookmark-button" data-hatena-bookmark-title="Scala関西Summit 2017" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+                </li>
+                <li>
+                  <div class="fb-like" data-href="http://summit.scala-kansai.org/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <% include _contents/timetable %>
+        </div>
+        <div class="section">
+          <% include _contents/venue %>
+        </div>
+        <div class="section">
+          <% include _contents/sponsors %>
+        </div>
+        <div class="section">
+          <% include _contents/special %>
+          <% include _contents/staff.ejs %>
+          <div class="contents">
+            <div class="ui page grid">
+              <div class="column">
+                ※ 当イベントに関するお問い合わせは<a href="http://goo.gl/forms/0jgvS6ufhL">こちらのフォーム</a>からお願いします。
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+        <% include _common/footer %>
     </div>
 
-    <% include _common/footer %>
     <script src="scripts/semantic.min.js"></script>
     <script src="scripts/main.js"></script>
 </body>
