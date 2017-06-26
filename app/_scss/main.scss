@@ -39,7 +39,9 @@ body {
 }
 
 .wrapper {
-  padding: 0 20px;
+  @include mediaPC() {
+    padding: 0 20px;
+  }
   background-color: $theme_color;
 }
 
