@@ -26,7 +26,7 @@
     <% sponsors.platinum.forEach(function(sponsor, index){ %>
       <div class="row">
         <div class="column">
-          <div class="ui segment">
+          <div class="ui segment sponsor">
             <a href="<%= sponsor.url %>">
               <img class="ui centered image" src="images/sponsors/<%= sponsor.logo %>">
             </a>
@@ -34,6 +34,11 @@
             <p>
               <%- sponsor.introduction %>
             </p>
+            <div class="sponsor__footer">
+              <a href="" class="large ui button sponsor-recruit">
+                <i class="star icon"></i> <span>求人情報・広告を見る</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -44,7 +49,7 @@
       <div class="two column row">
       <% } %>
         <div class="column">
-          <div class="ui segment">
+          <div class="ui segment sponsor">
             <a href="<%= sponsor.url %>">
               <img class="ui centered image" src="images/sponsors/<%= sponsor.logo %>">
             </a>
@@ -52,6 +57,11 @@
             <p>
               <%= sponsor.introduction %>
             </p>
+            <div class="sponsor__footer">
+              <a href="" class="large ui button sponsor-recruit">
+                <i class="star icon"></i> <span>求人情報・広告を見る</span>
+              </a>
+            </div>
           </div>
         </div>
       <% if (index % 2 === 1 || index === sponsors.gold.length - 1) { %>
@@ -64,9 +74,16 @@
       <div class="three column row aligned">
       <% } %>
         <div class="column">
-          <a href="<%= sponsor.url %>">
-            <img src="images/sponsors/<%= sponsor.logo %>" class="logo-silver">
-          </a>
+          <div class="ui segment sponsor">
+            <a href="<%= sponsor.url %>">
+              <img class="ui centered image" src="images/sponsors/<%= sponsor.logo %>" class="logo-silver">
+            </a>
+            <div class="sponsor__footer">
+              <a href="" class="large ui button sponsor-recruit">
+                <i class="star icon"></i> <span>求人情報・広告を見る</span>
+              </a>
+            </div>
+          </div>
         </div>
       <% if (index % 3 === 2 || index === sponsors.silver.length - 1) { %>
       </div>
