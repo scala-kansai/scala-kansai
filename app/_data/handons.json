@@ -1,0 +1,80 @@
+[
+  {
+    "start": "10:50",
+    "end": "11:20",
+    "contents": [
+      {
+        "id": "H1",
+        "title": "初心者向け文法",
+        "speaker": "",
+        "profile": "",
+        "image": "",
+        "description": "",
+        "rowspan": ""
+      }
+    ]
+  },
+  {
+    "start": "11:20",
+    "end": "11:40",
+    "break": true,
+    "title": "休憩(20分)"
+  },
+  {
+    "start": "11:40",
+    "end": "12:35",
+    "contents": [
+      {
+        "id": "H2",
+        "title": "初心者向けハンズオン",
+        "speaker": "",
+        "profile": "",
+        "image": "",
+        "description": "",
+        "rowspan": ""
+      }
+    ]
+  },
+  {
+    "start": "12:35",
+    "end": "14:00",
+    "break": true,
+    "title": "休憩(85分)"
+  },
+  {
+    "start": "14:00",
+    "end": "14:45",
+    "contents": [
+      {
+        "id": "H3",
+        "title": "初心者向けハンズオン",
+        "speaker": "",
+        "profile": "",
+        "image": "",
+        "description": "",
+        "rowspan": ""
+      }
+    ]
+  },
+  {
+    "start": "14:45",
+    "end": "16:00",
+    "break": true,
+    "title": "休憩(75分)"
+  },
+  {
+    "start": "16:00",
+    "end": "16:45",
+    "contents": [
+      {
+        "id": "H4",
+        "title": "PlayとIntelliJで学ぶデバッグ入門",
+        "speaker": "高嶋 隆博",
+        "profile": "<p>株式会社セプテーニ・オリジナルのエンジニアです。</p><p>ScalaとDDDを基礎にプロダクトの開発を頑張ってます。</p>",
+        "image": "https://www.gravatar.com/avatar/44ee497a638689b79d9808a8292a0601?s=400",
+        "description": "<p>PlayFrameworkを題材にIntelliJの強力なデバッガについて学ぶハンズオンです。</p><p>jvmへのデバッガのアタッチ、sbtの設定、IntelliJのデバッガの各機能の簡単な説明をPlayFrameworkでありがちなケースを題材に紹介していきます。</p>",
+        "rowspan": ""
+      }
+    ]
+  }
+]

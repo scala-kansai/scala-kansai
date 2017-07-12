@@ -7,6 +7,7 @@ var $ = require('gulp-load-plugins')();
 var browserSync =require('browser-sync');
 
 var timetable = require("./app/_data/timetable.json");
+var handson = require("./app/_data/handons.json");
 var platinumSponsors = require("./app/_data/platinum-sponsors.json");
 var goldSponsors = require("./app/_data/gold-sponsors.json");
 var silverSponsors = require("./app/_data/silver-sponsors.json");
@@ -20,6 +21,7 @@ gulp.task("ejs", function() {
   gulp.src("./app/index.ejs")
   	.pipe(ejs({
       timetable: timetable,
+      handson: handson,
       sponsors: {
         platinum: platinumSponsors,
         gold: goldSponsors,
