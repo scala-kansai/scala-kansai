@@ -6,20 +6,21 @@
               <i class="wait icon"></i>
               <div class="content">
                 Timetable
-                <div class="sub header">タイムテーブル</div>
+                <div class="sub header">タイムテーブル（<a href="#timetable-session">セッション</a>/<a href="#timetable-handson">ハンズオン</a>）</div>
               </div>
             </h1>
             <p>
                 ※ 変更となる可能性があります
                 <br> ※ ご参加の方は必ず参加登録をお願いします。当日参加枠および当日キャンセル待ち枠はありません。
             </p>
+            <h2 id="timetable-session">セッション</h2>
             <table class="ui definition celled table">
                 <thead class="full-width">
                     <tr>
                         <th></th>
-                        <th class="center aligned">4Fイベントホール</th>
-                        <th class="center aligned">6F 会議室AB</th>
-                        <th class="center aligned">6F 会議室D</th>
+                        <th class="center aligned">A.メイン会場(ホール)</th>
+                        <th class="center aligned">B.サブ会場 BAタイプ</th>
+                        <th class="center aligned">C.サブ会場2 Aタイプ</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -117,6 +118,94 @@
                         <td>-</td>
                         <td>-</td>
                     </tr>
+                </tbody>
+            </table>
+
+            <h2 id="timetable-handson">ハンズオン</h2>
+            <table class="ui definition celled table">
+                <thead class="full-width">
+                <tr>
+                    <th></th>
+                    <th class="center aligned">D. ハンズオン部屋 Aタイプ </th>
+                </tr>
+                </thead>
+                <tbody>
+                <% handson.forEach(function(sessions){ %>
+                <% if (sessions.break) { %>
+                <tr>
+                    <td></td>
+                    <td colspan="<% if (sessions.hasOwnProperty('colspan')){ %><%= sessions.colspan %><% } else { %>3<% } %> class="center aligned">
+                    <i class="coffee icon"></i><%= sessions.title %>
+                    </td>
+                </tr>
+                <% } else { %>
+                <tr>
+                    <td class="center aligned"><%= sessions.start %><br>|<br><%= sessions.end %></td>
+                    <% sessions.contents.forEach(function(aSession, index){ %>
+                    <td style="vertical-align: top;"<%if (aSession.hasOwnProperty('rowspan')){ %> rowspan="<%=aSession.rowspan%>"<% } %>>
+                        <div>
+                            <% if (aSession.id){ %><a class="session title" id="link-<%= aSession.id %>" href="#"><% } %>
+                                <%= aSession.title %>
+                                <% if (aSession.id){ %></a><% } %>
+                        </div>
+                        <span><%= aSession.speaker %></span>
+                        <%if (aSession.hasOwnProperty('slide')) { %><a class="ui orange mini button" href="<%=aSession.slide%>" target="_blank"><i class="file outline icon"></i>資料</a> <% } %>
+                        <%if (aSession.hasOwnProperty('movie')) { %><a class="ui blue mini button" href="<%=aSession.movie%>" target="_blank"><i class="film icon"></i>動画</a><% } %>
+
+                        <% if (aSession.id){ %>
+                        <div class="ui modal <%= aSession.id %>">
+                            <i class="close icon"></i>
+                            <div class="header">
+                                <%= aSession.title %>
+                            </div>
+                            <div class="image content">
+                                <div class="description">
+                                    <%- aSession.description %>
+                                </div>
+                            </div>
+                            <div class="image content">
+                                <% if (aSession.image){ %>
+                                <div class="ui medium image">
+                                    <img src="<%= aSession.image %>" width="320px">
+                                </div>
+                                <% } %>
+                                <div class="description">
+                                    <% if (!aSession.hasOwnProperty('speaker2')){ %><h3><%= aSession.speaker %></h3><% } %>
+                                    <%- aSession.profile %>
+                                </div>
+                            </div>
+                            <% if (aSession.hasOwnProperty('speaker2')){ %>
+                            <div class="image content">
+                                <% if (aSession.image2){ %>
+                                <div class="ui medium image">
+                                    <img src="<%= aSession.image2 %>" width="320px">
+                                </div>
+                                <% } %>
+                                <div class="description">
+                                    <%- aSession.profile2 %>
+                                </div>
+                            </div>
+                            <% } %>
+                            <div class="actions">
+                                <div class="ui black deny button">
+                                    Close
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                          $(function(){
+                            $('#link-<%= aSession.id %>').click(function(){
+                              $('.ui.modal.<%= aSession.id %>').modal('show');
+                            });
+                          });
+                        </script>
+                        <% } %>
+
+                    </td>
+                    <% }) %>
+                </tr>
+                <% } %>
+                <% }) %>
                 </tbody>
             </table>
         </div>
