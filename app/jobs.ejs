@@ -18,6 +18,7 @@
   </head>
   <body>
   <% include _common/header %>
+  <div class="wrapper">
     <div class="main container jobs">
       <div class="ui page grid">
         <div class="row">
@@ -38,7 +39,7 @@
         </div>
         <div class="row">
           <div class="column">
-            <h1 class="section ui header">
+            <h1 class="ui header">
               <i class="announcement icon"></i>
               <div class="content">
                 Job Offer &amp; Advertising
@@ -47,52 +48,65 @@
             </h1>
           </div>
         </div>
-        <% jobs.gold.forEach(function(job){ %>
-          <a class="anchor" name="<%= job.link %>"></a>
-          <div class="row">
-            <div class="column">
-              <div class="ui tall stacked segment">
-                <h2 class="ui header">
-                  <%= job.name %>
-                  <div class="sub header"><%= job.title %></div>
-                </h2>
-                <a href="<%= job.companyUrl %>"><img class="ui left floated image jobs-logo gold" src="images/sponsors/<%= job.logo %>"></a>
-                <% job.message.forEach(function(message){ %>
-                <p>
-                  <%- message %>
-                </p>
-                <% }) %>
-                <a class="ui right floated teal button" href="<%= job.offerPageUrl %>">
-                  <%= job.buttonTitleToOfferPage %><i class="angle double right icon"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        <% }) %>
       </div>
+
       <div class="ui page grid">
         <div class="row">
           <div class="column">
             <div class="ui divided items">
-              <% jobs.silver.forEach(function(job){ %>
-              <a class="anchor" name="<%= job.link %>"></a>
-              <div class="item">
-                <div class="image">
-                  <a href="<%= job.companyUrl %>">
-                    <img src="images/sponsors/<%= job.logo %>" class="jobs-logo silver">
-                  </a>
+              <% jobs.platinum.forEach(function(job){ %>
+              <div class="job item row">
+                <a class="anchor" name="<%= job.link %>" id="<%= job.name %>"></a>
+                <div class="row">
+                  <div class="column">
+                    <div class="ui tall stacked segment">
+                      <h2 class="ui header">
+                          <%= job.name %>
+                        <div class="sub header"><%= job.title %></div>
+                      </h2>
+                      <a href="<%= job.companyUrl %>"><img class="ui left floated image jobs-logo platinum" src="images/sponsors/<%= job.logo %>"></a>
+                        <% job.message.forEach(function(message){ %>
+                      <p>
+                          <%- message %>
+                      </p>
+                        <% }) %>
+                      <a class="ui right floated button offerpage-link" href="<%= job.offerPageUrl %>">
+                          <%= job.buttonTitleToOfferPage %><i class="angle double right icon"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div class="content">
-                  <h3 class="header"><%= job.name %></h3>
-                  <% job.message.forEach(function(message){ %>
-                  <p>
-                    <%- message %>
-                  </p>
-                  <% }) %>
-                  <div class="extra">
-                    <a class="ui right floated teal button" href="<%= job.offerPageUrl %>">
-                      <%= job.buttonTitleToOfferPage %><i class="angle double right icon"></i>
-                    </a>
+              </div>
+                <% }) %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui page grid">
+        <div class="row">
+          <div class="column">
+            <div class="ui divided items">
+                <% jobs.gold.forEach(function(job){ %>
+              <div class="job item row">
+                <a class="anchor" name="<%= job.link %>" id="<%= job.name %>"></a>
+                <div class="row">
+                  <div class="column">
+                    <div class="ui tall stacked segment">
+                      <h2 class="ui header">
+                          <%= job.name %>
+                        <div class="sub header"><%= job.title %></div>
+                      </h2>
+                      <a href="<%= job.companyUrl %>"><img class="ui left floated image jobs-logo gold" src="images/sponsors/<%= job.logo %>"></a>
+                        <% job.message.forEach(function(message){ %>
+                      <p>
+                          <%- message %>
+                      </p>
+                        <% }) %>
+                      <a class="ui right floated button offerpage-link" href="<%= job.offerPageUrl %>">
+                          <%= job.buttonTitleToOfferPage %><i class="angle double right icon"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -101,8 +115,41 @@
           </div>
         </div>
       </div>
+
+      <div class="ui page grid">
+        <div class="row">
+          <div class="column">
+            <div class="ui divided items">
+                <% jobs.silver.forEach(function(job){ %>
+              <div class="job item row">
+                <a class="anchor" name="<%= job.link %>" id="<%= job.name %>"></a>
+                <div class="image">
+                    <a href="<%= job.companyUrl %>">
+                      <img src="images/sponsors/<%= job.logo %>" class="jobs-logo silver">
+                    </a>
+                  </div>
+                  <div class="content">
+                    <h3 class="header"><%= job.name %></h3>
+                      <% job.message.forEach(function(message){ %>
+                    <p>
+                        <%- message %>
+                    </p>
+                      <% }) %>
+                    <div class="extra">
+                      <a class="ui right floated button offerpage-link" href="<%= job.offerPageUrl %>">
+                          <%= job.buttonTitleToOfferPage %><i class="angle double right icon"></i>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+              <% }) %>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   <% include _common/footer %>
+  </div>
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="

@@ -4,8 +4,10 @@
 var gulp = require('gulp');
 var ejs = require("gulp-ejs");
 var $ = require('gulp-load-plugins')();
+var browserSync =require('browser-sync');
 
 var timetable = require("./app/_data/timetable.json");
+var handson = require("./app/_data/handons.json");
 var platinumSponsors = require("./app/_data/platinum-sponsors.json");
 var goldSponsors = require("./app/_data/gold-sponsors.json");
 var silverSponsors = require("./app/_data/silver-sponsors.json");
@@ -19,6 +21,7 @@ gulp.task("ejs", function() {
   gulp.src("./app/index.ejs")
   	.pipe(ejs({
       timetable: timetable,
+      handson: handson,
       sponsors: {
         platinum: platinumSponsors,
         gold: goldSponsors,
@@ -29,7 +32,8 @@ gulp.task("ejs", function() {
         scala: scalaStaff,
         network: networkStaff,
         student: studentStaff
-      }
+      },
+      jobs: jobs
     }, {"ext": ".html"}))
   	.pipe(gulp.dest("./dist"));
 
@@ -47,6 +51,25 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./dist/styles/'));
 });
 
+gulp.task('watch', ['ejs', 'sass'],function () {
+  gulp.watch(['./app/_scss/**/*.scss'], ['sass']);
+  gulp.watch([
+    './app/*.ejs',
+    './app/_common/**/*.ejs',
+    './app/_contents/**/*.ejs',
+  ], ['ejs']);
+});
+
+gulp.task('browser-sync', function() {
+  browserSync.init(null, {
+    server: './dist',
+    port: 5000,
+    ws: true,
+    files: ["./dist/**/*"],
+    browser: "google chrome",
+  });
+});
+
 gulp.task('deploy', function() {
   return gulp.src('./dist/**/*')
     .pipe($.ghPages({
@@ -54,6 +77,8 @@ gulp.task('deploy', function() {
     }));
 });
 
-gulp.task('default', function() {
+gulp.task('default', [ 'browser-sync', 'watch'], function() {
   // place code for your default task here
 });
+
+

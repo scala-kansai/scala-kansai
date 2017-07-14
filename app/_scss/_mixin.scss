@@ -1,0 +1,12 @@
+@mixin mediaPC() {
+  @media (min-width: 768px) {
+    @content
+  }
+}
+
+@mixin mediaTB() {
+  @media only screen and (max-width: 767px) {
+    @content
+  }
+}
+

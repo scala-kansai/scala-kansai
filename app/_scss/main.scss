@@ -1,64 +1,185 @@
 $accent_color: rgb(224, 123, 83);
-$theme_color: rgb(0, 181, 173);
+$theme_color: #C82C32;
 $theme_font_color: #FFFFFF;
-.logo {
-  max-width: 600px;
-  width: 100%;
+
+@import "mixin";
+@import "_contents/sponsors";
+@import "jobs";
+
+body {
+  background-color: $theme_color;
 }
+
 // header menu style
 .ui.fixed.menu.header_menu {
   background-color: $theme_color;
+  padding: 10px;
   a.item, > a:not(.ui) {
     color: $theme_font_color;
   }
+  .header.item {
+    background-color: transparent;
+  }
 }
+
+.sidebar {
+  text-align: center;
+  width: auto;
+}
+
+.recruit-link {
+  padding: 10px 15px;
+  border-radius: 3px;
+  color: $theme_color;
+  background-color: $theme_font_color;
+}
+
 .ui.menu .item > a:not(.ui) {
   color: $theme_font_color;
 }
-div {
-  .main.container {
-    padding: 40px 0;
+
+.wrapper {
+  @include mediaPC() {
+    padding: 0 20px;
   }
-  .main.container.jobs {
-    padding: 80px 0;
-    .stacked.segment {
-      padding-bottom: 60px;
-    }
+  background-color: $theme_color;
+}
+
+.main.container {
+  padding-top: 60px;
+  background: #ffffff;
+  .section {
+    padding-bottom: 20px;
   }
-  .masthead {
-    background: url(../images/background.jpg) 0 0 no-repeat;
-    background-size: cover;
+  .section .header .icon {
+    color: $theme_color;
   }
-  .masthead-content {
-    background-color: rgba(255,255,255,0.6);
-    filter: alpha(opacity=60);
-    h1 {
-      font-size: 3.2em !important;
-    }
-    p {
-      font-size: 1.5em !important;
-    }
+  .section:nth-child(odd) {
+    background: #f7f7f7;
   }
-  .contents {
+}
+
+.masthead {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  @include mediaPC() {
     padding: 30px 0;
+    max-width: 1400px;
+    max-height: 600px;
   }
-  .googlemap {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-    iframe,
-    object,
-    embed {
-      position: absolute;
-      top: 0;
-      left: 0;
+
+  .logo-area {
+    order: 1;
+    @include mediaPC() {
+      width: 36%;
+      max-width: 500px;
+    }
+    @include mediaTB() {
       width: 100%;
-      height: 100%;
+    }
+
+    .logo {
+      width: 100%;
+    }
+  }
+  .hero-area {
+    @include mediaPC() {
+      max-width: 800px;
+      width: 57%;
+      order: 3;
+    }
+    @include mediaTB() {
+      width: 100%;
+      order: 2;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+  .summary-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    @include mediaPC() {
+      width: 36%;
+      max-width: 500px;
+      order: 2;
+      align-items: flex-end;
+    }
+
+    @include mediaTB() {
+      width: 100%;
+      order: 3;
+      align-items: center;
+    }
+
+    .summary {
+      text-align: right;
+      @include mediaPC() {
+        margin: 40px 0px;
+      }
+      @include mediaTB() {
+        margin: 20px 0px;
+      }
+      &__row {
+        font-size: 1.3em;
+        margin-top: 20px;
+      }
+    }
+    .entry-button {
+      margin-top: 20px;
+      background-color: $theme_color;
+      color: $theme_font_color;
     }
   }
 }
+
+.masthead-content {
+  background-color: rgba(255,255,255,0.6);
+  filter: alpha(opacity=60);
+  h1 {
+    font-size: 3.2em !important;
+  }
+  p {
+    font-size: 1.5em !important;
+  }
+}
+.contents {
+  padding: 30px 0;
+}
+
+.footer {
+  background-color: $theme_color;
+  color: $theme_font_color;
+  padding: 10px;
+  .previous-links a {
+    color: $theme_font_color;
+    margin: 4px;
+  }
+}
+
+.googlemap {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  iframe,
+  object,
+  embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .sns {
   margin-left: 0;
   padding-left: 0;
@@ -72,23 +193,6 @@ div {
   iframe {
     margin: 0 !important;
   }
-}
-.jobs-logo.gold {
-  width: 300px;
-}
-.jobs-logo.silver {
-  width: 180px;
-  height: 120px;
-}
-.logo-silver {
-  width: 240px;
-  height: 160px;
-}
-.session.title {
-  font-size: 1.2em;
-}
-.program.title {
-  font-size: 1.2em;
 }
 /*******************************
           Responsive
