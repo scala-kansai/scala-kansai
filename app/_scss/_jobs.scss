@@ -1,9 +1,11 @@
 .jobs-logo.platinum {
   width: 300px;
+  margin-bottom: 40px;
 }
 
 .jobs-logo.gold {
   width: 300px;
+  margin-bottom: 40px;
 }
 .jobs-logo.silver {
   width: 180px;
@@ -44,4 +46,8 @@
     position: absolute;
     top: -80px;
   }
+}
+
+.ui.items>.item {
+  table-layout: auto;
 }
