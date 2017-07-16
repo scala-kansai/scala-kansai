@@ -1,5 +1,114 @@
 {
-  "platinum": [],
+  "platinum": [{
+    "name": "株式会社セプテーニ・オリジナル",
+    "companyUrl": "http://www.septeni-original.co.jp/",
+    "logo": "septeni_w550.png",
+    "link": "",
+    "title": "",
+    "message": [
+      "【企業概要】",
+      "<a target='_blank' href='http://www.septeni-original.co.jp/'>セプテーニ・オリジナル</a>は<a target='_blank' href='https://www.septeni-holdings.co.jp/'>セプテーニ・グループ</a>における様々な開発を担当してる会社です。",
+      "高い成長を続けるソーシャルメディア（Facebook、Twitterなど）のアドテクノロジーに関するシステムや、",
+      "コンシューマ向けオリジナル新作マンガの配信サービス<a target='_blank' href='http://ganma.jp/'>「GANMA！(ガンマ)」</a>等を開発しており、ほぼ全てのプロダクトでScalaを採用しています。",
+      "Scala Matsuri 2016 , Scala Matsuri 2017 将軍スポンサーです。",
+      "【文化】",
+      "コードレビューやスクラムの適用などは当然とし、ドメイン駆動設計を取り入れる等、綺麗なコードを素早くを作ることに注力しています。2016年10月現在、以下の方針の下に開発を行っています。",
+      "我々は”高速高品質”を目指す",
+      "我々は保守性のあるコードを高速に生産する",
+      "気軽に品質を維持するため、Scalaを利用する",
+      "プロダクトオーナーがハンドルを握るため、スクラムを採用する",
+      "チーム全員で要求の芯を捉え続けるため、DDDを採用する",
+      "リファクタリングをし続けるため、ユニットテストを書く",
+      "ちゃんとやる＝遅いという思い込みを止める",
+      "意識を保ち続けるため、レビューを行う",
+      "※詳細は<a target='_blank' href='http://www.septeni-original.co.jp/culture/policy.html'>セプテーニ・オリジナル - 技術指針</a>をご参照ください。",
+      "【活動】",
+      "Scalaに関するイベントを不定期開催しています。グループメンバーへのご参加お待ちしております！",
+      "●<a target='_blank' href='https://shinjuku-geek-lounge.connpass.com/'>新宿 Geek Lounge</a>",
+      "●<a target='_blank' href='https://septeni-scala.connpass.com/'>“Septeni×Scala”勉強会</a>",
+      "●<a target='_blank' href='https://scala-syogun-matsuri.connpass.com/'>Scala将軍達の後の祭り</a>",
+      "●<a target='_blank' href='https://scala-scrum-ddd-gatlingtalk.connpass.com/'>Scala/Scrum/DDD 困ったこと50連発ガトリングトーク！！</a>",
+      "【求人】",
+      "セプテーニ・オリジナルでは一緒に働ける仲間を積極的に募集しています。 Scala未経験でも構いません、ぜひご応募ください！"
+    ],
+    "buttonTitleToOfferPage": "採用情報ページ",
+    "offerPageUrl": "http://www.septeni-holdings.co.jp/career/"
+  }],
   "gold": [],
-  "silver": []
+  "silver": [{
+      "name": "株式会社リンコード",
+      "companyUrl": "http://www.linkode.co.jp/",
+      "logo": "linkode_w240.png",
+      "link": "",
+      "title": "今日も稼働しているシステムをScalaで",
+      "message": [
+        "当社は、通信キャリア会社様や通信事業会社様で広く採用されている",
+        "音声認識、機械翻訳のシステム開発をメインに行っています。",
+        "これらの開発では、多くの端末から送信されるデータを",
+        "非同期並列に、かつ高速で処理することが求められます。",
+        "このようなシステムをScala + Akkaをベースにゼロから設計開発しています。",
+        "当社では、\"今日も稼働しているシステム\"開発に本気で取り組んでみたい",
+        "エンジニアの採用を積極的に行っています。",
+        "また、培った知識とスキルを元に自社プロダクト開発も開始しており、",
+        "Scalaで\"明日稼働するシステム\"の開発に携わりたいエンジニアも募集しています。",
+        "当社に少しでも興味を持たれた方は、当社採用情報ページをご参照ください。"
+      ],
+      "buttonTitleToOfferPage": "採用情報ページ",
+      "offerPageUrl": "http://linkode.recruitment.jp/career"
+    },
+    {
+      "name": "株式会社ヌーラボ",
+      "companyUrl": "https://nulab-inc.com/",
+      "logo": "nulab_w240.png",
+      "link": "",
+      "title": "",
+      "message": [
+        "株式会社ヌーラボは「チームで働くすべての人に」をコンセプトに、仕事を楽しく、コラボレーションを促進するサービスを開発しています。",
+        "プロジェクト管理の「<a target='_blank' href='http://www.backlog.jp/'>Backlog</a>」、図の作成と共有の「<a target='_blank' href='https://cacoo.com/lang/ja/home'>Cacoo</a>」、チームディスカッションの「<a target='_blank' href='https://www.typetalk.in/ja/'>Typetalk</a>」の開発、提供をおこなっています。",
+        "<a target='_blank' href='http://www.backlog.jp/'>Backlog</a>と<a target='_blank' href='https://www.typetalk.in/ja/'>Typetalk</a>ではScalaを採用しています。",
+        "会社として<a target='_blank' href='https://scala.connpass.com/'>Scala福岡</a>という勉強会の支援や、既に開催50回目を超えるScalaや関数型プログラミングに関する勉強を実施しており、今後もさらにScalaに注力します。また、実際にサービスで利用するために開発したScalaのライブラリをGitHubで OSS として公開も行っています。",
+        "・<a target='_blank' href='https://github.com/nulab/scala-oauth2-provider'>oauth2-server for Scala</a>",
+        "本社は福岡ですが、国内では京都・東京、海外はニューヨークにも開発拠点があります。すべての拠点で開発者を募集していますので、Scalaを使った開発に興味がある方やヌーラボのサービスに興味がある方、「仕事の中に楽しさを」のコンセプトに共感する方、ぜひご応募ください。",
+        "詳しくは<a target='_blank' href='https://nulab-inc.com/ja/about/careers/'>採用情報</a>や<a target='_blank' href='https://nulab-inc.com/ja/blog/categories/development/?ref=scalakansaisummit2016'>ヌーラボブログの技術カテゴリー</a>を参照してください。"
+      ],
+      "buttonTitleToOfferPage": "採用情報ページ",
+      "offerPageUrl": "https://nulab-inc.com/ja/about/careers/"
+    },
+    {
+      "name": "株式会社はてな",
+      "companyUrl": "http://hatenacorp.jp/",
+      "logo": "hatena.svg",
+      "link": "hatena",
+      "title": "",
+      "message": [
+        "はてなは「『知る』『つながる』『表現する』で新しい体験を提供し、人の生活を豊かにする」をミッションに、「<a target='_blank' href='http://b.hatena.ne.jp/'>はてなブックマーク</a>」「<a target='_blank' href='http://hatenablog.com/'>はてなブログ</a>」などのソーシャルサービスを展開してきました。最近はこれまでのサービス開発・運用知見を活かし、サーバー監視サービス「<a target='_blank' href='https://mackerel.io/ja/'>Mackerel</a>」などビジネス向けの製品や、受託サービスの開発・運用も行っています。",
+        "Scala は Mackerel やリニューアル中のはてなブックマークほか、サービスの一部で採用されています（<a target='_blank' href='https://speakerdeck.com/aereal/microservices-and-scala-at-hatena'>はてなにおけるマイクロサービスとScala</a>、<a target='_blank' href='http://www.slideshare.net/oarat/2015-0801-scala'>はてなブックマーク in Scala</a>、<a target='_blank' href='http://2014.scalamatsuri.org/ja/program/index.html#session-b-5'>Mackerel における Scala/Play</a>）。",
+        "技術で人の生活を豊かにすることに情熱を持てる方は、ぜひエンジニア採用にご応募ください。勤務地は京都と東京の両方を選択できます。詳しくは採用ページや開発者ブログをご覧ください。",
+        "<a target='_blank' href='http://hatenacorp.jp/recruit/'>採用情報 - 株式会社はてな</a>",
+        "<a target='_blank' href='http://developer.hatenastaff.com/'>Hatena Developer Blog</a>"
+      ],
+      "buttonTitleToOfferPage": "採用情報ページ",
+      "offerPageUrl": "http://hatenacorp.jp/recruit/"
+    },
+    {
+      "name": "エムオーテックス株式会社",
+      "companyUrl": "http://www.motex.co.jp",
+      "logo": "motex_w240.png",
+      "link": "motex",
+      "title": "",
+      "message": [
+        "あなた：「次のプロジェクトはScalaで挑戦してみたいのですが…」",
+        "上司　：「そんな訳のわからない言語はダメです！」",
+        "というやり取りを経験したことのあるそこのあなた！",
+        "私たちと一緒に、ScalaでAkkaでDDDなプロダクトを一緒に作りませんか？",
+        "私たちは、日本でトップシェアを得ているプロダクトを携え、これから世界に打って出ます。",
+        "開発効率、品質アップのために選択した開発環境はScala、そしてAkka。",
+        "ユーザーの本当の課題を解決し、プロダクトが進化し続けるためのの手法として選択したのはDDD。",
+        "あなたの実力を存分に活かす為の環境を用意しています。",
+        "是非、世界に打って出る製品を一緒に作りましょう！ご応募お待ちしております！"
+      ],
+      "buttonTitleToOfferPage": "採用情報ページ",
+      "offerPageUrl": "http://www.motex.co.jp/recruit/career/"
+    }
+  ]
 }
