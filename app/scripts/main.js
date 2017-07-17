@@ -67,8 +67,23 @@ semantic.ready = function() {
       onBottomPassed: handler.activate.section,
       onTopPassedReverse: handler.activate.previous
     });
-    $('.standard.session.modal')
-      .modal('attach events', '.session.title');
+  $('.standard.session.modal')
+    .modal('attach events', '.session.title');
+
+  var preventScrollingTheMap = function() {
+    var map = $('iframe.mapFrame');
+    //あらかじめiframeにpointer-events:noneを掛け、マウスイベントを無効にしておく
+    map.css('pointer-events', 'none');
+    //一度クリックされたらマウスイベントを有効にする
+    $('.googlemap').click(function() {
+        map.css('pointer-events', 'auto');
+    });
+    //iframeからマウスが離れたら再度pointer-events:noneを効かせる
+    map.mouseout(function() {
+        map.css('pointer-events', 'none');
+    });
+  };
+  preventScrollingTheMap();
 };
 // attach ready event
 $(document).ready(semantic.ready);
