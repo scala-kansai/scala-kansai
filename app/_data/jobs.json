@@ -17,7 +17,22 @@
     "buttonTitleToOfferPage": "採用情報ページ",
     "offerPageUrl": "http://www.septeni-holdings.co.jp/career/"
   }],
-  "gold": [],
+  "gold": [
+    {
+      "name": "株式会社Tech to Value",
+      "companyUrl": "http://www.t2v.jp",
+      "logo": "t2v_w300.png",
+      "link": "t2v",
+      "title": "「Scalaスペシャリスト、育てます」",
+      "message": [
+        "(株)Tech to Value では Scala Onlineコードレビューをサービスとして行っています。",
+        "GitHubやそれに類するサービスにてPull Requestベースによるコードレビュー、ならびにSlackやChatworkといったチャットサービスによるFAQを通じ、チームに実践的なScalaの使い方を広げていきます。",
+        "Scalaの導入を検討しているが、チームに詳しい人間が居ないため二の足を踏んでいる企業がありましたら、ぜひ導入をご検討ください。"
+      ],
+      "buttonTitleToOfferPage": "製品情報ページ",
+      "offerPageUrl": "http://www.t2v.jp/"
+    }
+  ],
   "silver": [{
       "name": "株式会社リンコード",
       "companyUrl": "http://www.linkode.co.jp/",
