@@ -95,7 +95,7 @@
     <h2 class="ui header">Bronze</h2>
     <hr>
     <% sponsors.bronze.forEach(function(sponsor, index){ %>
-      <% if (index % 3 === 0) { %>
+      <% if (index % 5 === 0) { %>
         <div class="five column row aligned">
       <% } %>
       <div class="column">
@@ -103,7 +103,7 @@
           <img src="images/sponsors/<%= sponsor.logo %>">
         </a>
       </div>
-      <% if (index % 3 === 2 || index === sponsors.bronze.length - 1) { %>
+      <% if (index % 5 === 4 || index === sponsors.bronze.length - 1) { %>
         </div>
       <% } %>
     <% }) %>

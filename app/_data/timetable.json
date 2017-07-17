@@ -59,7 +59,7 @@
         "title": "BigDLでScala × DeepLearningに入門した話",
         "speaker": "nosatohirotaka",
         "profile": "<p><i class='twitter icon'></i><a href='https://twitter.com/nosattee'>nosattee</a></p>",
-        "image": "https://drive.google.com/open?id=0B4dnZ2fuvEHiZkxaRF9mZ2JMUUk",
+        "image": "images/speakers/nosatohirotaka.jpg",
         "description": "<p>分散型ディープラーニングライブラリであるBigDLを使用して、今アツイ機械学習にトライした話をします。</p>",
         "rowspan": ""
       }
@@ -194,7 +194,7 @@
         "title": "プレースホルダ構文完全解説",
         "speaker": "水島 宏太",
         "profile": "<p>2011年3月、筑波大学大学院システム研究科コンピュータサイエンス専攻終了（博士（工学））。その後、いくつかの会社を経て現職。プログラミング言語作りや、構文解析に強い興味を持つ。</p><p>また、最近ではプログラミングやコンピュータサイエンス教育にも興味を持っている。</p> <p><i class='github icon'></i><a href='https://github.com/kmizu'>kmizu</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/kmizu'>kmizu</a></p>",
-        "image": "https://www.dropbox.com/s/49p43jrncgh2aj7/kmizu_fb_2017_05.jpg?dl=0",
+        "image": "images/speakers/kmizu_fb_2017_05.jpg",
         "description": "<p>Scalaを普段使っている方なら、まず使ったことがあるはずのプレースホルダ構文。</p><p>このプレースホルダ構文、 list.map(_.size) のような単純な使い方についてはよく説明されていますが、全体としてどのような特性があるかについて説明した文献はScala言語仕様の他にはないと思います。</p><p>今回は、言語オタクとして、この機能がいかに興味深いか、面白いかについて語ります。これであなたもプレースホルダ構文を完全理解！</p>",
         "rowspan": ""
       },

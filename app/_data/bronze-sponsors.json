@@ -3,5 +3,25 @@
     "name": "ASOBO DESIGN",
     "url": "https://asobo-design.com/nex/",
     "logo": "asobo-design_w180.png"
+  },
+  {
+    "name": "GitBucket",
+    "url": "https://gitbucket.github.io/",
+    "logo": "gitbucket_sticker.svg"
+  },
+  {
+    "name": "株式会社FOLIO",
+    "url": "https://corp.folio-sec.com/",
+    "logo": "folio.svg"
+  },
+  {
+    "name": "Scala広島",
+    "url": "https://scala-hiroshima.github.io/",
+    "logo": "scala_hiroshima_w180.png"
+  },
+  {
+    "name": "グッドフロー・テクノロジーズ",
+    "url": "http://good-flow.com/",
+    "logo": "goodFlow_w180.png"
   }
 ]
