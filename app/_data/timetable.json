@@ -39,7 +39,7 @@
       {
         "id": "S4",
         "title": "Scala and Akka apps on Kubernetes in ChatWork",
-        "speaker": "ChatWork株式会社　林 大介(hayasshi)",
+        "speaker": "林 大介(hayasshi)",
         "profile": "<p>ChatWorkでScalaエンジニアをしています。最近は Akka を使うことが多いです。</p> <p><i class='github icon'></i><a href='https://github.com/hayasshi'>hayasshi</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/hayasshi_'>hayasshi_</a></p>",
         "image": "images/speakers/hayasshi.png",
         "description": "<p>2016年末、ChatWorkはFalconをリリースしました</p><p><a href='https://speakerdeck.com/j5ik2o/history-of-falcon-the-way-to-production-release'>https://speakerdeck.com/j5ik2o/history-of-falcon-the-way-to-production-release</a><br><a href='https://speakerdeck.com/j5ik2o/chatworkfalsexin-metusezingusisutemuwozhi-eruji-shu'>https://speakerdeck.com/j5ik2o/chatworkfalsexin-metusezingusisutemuwozhi-eruji-shu</a></p><p>上記の資料にある通り、FalconのScala&Akkaアプリケーションは、Kubernetes上でコンテナとして分散実行されています。</p><p>この発表では、Scala&AkkaアプリケーションをKubernetesで運用する上で、デプロイ、メトリクス、ログなどをどのように扱っているか、ChatWorkにおける事例をご紹介します。</p>",
