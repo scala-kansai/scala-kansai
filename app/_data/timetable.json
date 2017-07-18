@@ -119,7 +119,7 @@
         "title": "ストリーム処理ことはじめ ～ Akka Streams",
         "speaker": "にしかわささき",
         "profile": "<p>元々はエンジニアですが最近はマネージメントより。</p> <p>普段は Java や Scala を使います。 インフラやエディタの話もよくします。 日本酒が好きです。</p> <p><i class='twitter icon'></i><a href='https://twitter.com/nishikawasasaki'>nishikawasasaki</a></p>",
-        "image": "https://pbs.twimg.com/profile_images/875504318044028928/2SzJrYUh_400x400.jpg",
+        "image": "images/speakers/nishikawasasaki.jpeg",
         "description": "<p>普通にメソッドチェーンを使用した場合とAkka Streams を使用した場合とで、どのように処理やデータの流れ方が変わるのか説明します。</p><p>また、Akka Streams を利用することのメリットについてもお話しできればと思います。</p>",
         "rowspan": ""
       },
