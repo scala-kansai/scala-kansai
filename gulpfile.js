@@ -34,6 +34,7 @@ gulp.task('watch', ['ejs', 'sass', 'copy'], function () {
   gulp.watch([
     './app/**/*.json',
     './app/*.ejs',
+    './app/images/**/*',
     './app/_common/**/*.ejs',
     './app/_contents/**/*.ejs',
   ], ['ejs']);
