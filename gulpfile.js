@@ -5,6 +5,8 @@ var gulp = require('gulp');
 var ejs = require("gulp-ejs");
 var $ = require('gulp-load-plugins')();
 var browserSync =require('browser-sync');
+var del = require('del');
+var runSequence = require('run-sequence');
 
 var timetable = require("./app/_data/timetable.json");
 var handson = require("./app/_data/handons.json");
@@ -51,7 +53,7 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./dist/styles/'));
 });
 
-gulp.task('watch', ['ejs', 'sass'],function () {
+gulp.task('watch', ['ejs', 'sass', 'copy'], function () {
   gulp.watch(['./app/_scss/**/*.scss'], ['sass']);
   gulp.watch([
     './app/*.ejs',
@@ -81,4 +83,23 @@ gulp.task('default', [ 'browser-sync', 'watch'], function() {
   // place code for your default task here
 });
 
+gulp.task('copy', function() {
+  return gulp.src(
+    [
+      './app/**',
+      '!./app/_*',
+      '!./app/*.ejs'
+    ],
+    { base: 'app' }
+  ).pipe(gulp.dest('./dist'));
+});
 
+gulp.task('clean', function () {
+  return del(['dist']);
+});
+
+gulp.task('build', function(cb) {
+  runSequence('clean',
+    ['ejs', 'sass', 'copy'],
+    cb);
+});
