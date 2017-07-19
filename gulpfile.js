@@ -56,6 +56,7 @@ gulp.task('sass', function () {
 gulp.task('watch', ['ejs', 'sass', 'copy'], function () {
   gulp.watch(['./app/_scss/**/*.scss'], ['sass']);
   gulp.watch([
+    './app/**/*.json',
     './app/*.ejs',
     './app/_common/**/*.ejs',
     './app/_contents/**/*.ejs',
@@ -88,6 +89,7 @@ gulp.task('copy', function() {
     [
       './app/**',
       '!./app/_*',
+      '!./app/_*/**',
       '!./app/*.ejs'
     ],
     { base: 'app' }
