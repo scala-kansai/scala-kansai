@@ -25,6 +25,11 @@
     "logo": "hatena.svg"
   },
   {
+    "name": "有限会社　結まーる",
+    "url": "https://tabelog.com/kyoto/A2602/A260201/26000635/",
+    "logo": "wachi.svg"
+  },
+  {
     "name": "株式会社ヌーラボ",
     "url": "https://nulab-inc.com/ja/",
     "logo": "nulab_w240.png"
@@ -33,5 +38,10 @@
     "name": "株式会社ことば研究所",
     "url": "http://kotoba-lab.jp/",
     "logo": "kotoba_w240.png"
+  },
+  {
+    "name": "さくらインターネット株式会社",
+    "url": "https://www.sakura.ad.jp/",
+    "logo": "sakura-internet.svg"
   }
 ]
