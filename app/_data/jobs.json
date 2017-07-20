@@ -113,6 +113,23 @@
       ],
       "buttonTitleToOfferPage": "採用情報ページ",
       "offerPageUrl": "https://nulab-inc.com/ja/about/careers/"
+    },
+    {
+      "name": "日本電気株式会社",
+      "companyUrl": "http://jpn.nec.com/rd/crl/ai/groups/datamining/",
+      "logo": "nec.svg",
+      "link": "nec",
+      "title": "",
+      "message": [
+        "● Scala & Sparkでデータサイエンスに革新を！<br>熟練のデータサイエンティストが数ヶ月かけて行ってきた分析を、誰もがたったの一日で実現する。そんな不可能を可能にする次世代AI技術「予測分析自動化」技術の製品・リサーチエンジニアを募集しています。",
+        "● Scala Webバックエンド・製品エンジニア<br>Playフレームワークを中心とするWebバックエンド製品開発を担当。エンタープライズシステムとしての安定動作を実現する屋台骨を支えます。",
+        "● Scala & Sparkコア・製品エンジニア<br>Apache SparkとScala実装のコアエンジン製品開発を担当。コアアルゴリズムをソフトウェアとして世界へ届けます。",
+        "● Scala & Sparkコア・リサーチエンジニア<br>Apache SparkとScalaで次世代の主機能プロトタイプ開発を担当。研究員と共に世界を革新するアルゴリズムを研究開発します。",
+        "世界最先端技術とソフトウェアへの情熱をもって、我々と共にデータサイエンスに革新をおこしましょう！",
+        "<ul><li><a href='http://jpn.nec.com/press/201612/20161215_06.html'>NEC、業務システムにおける大規模データ予測を自動化する｢予測分析自動化技術｣を開発</a></li><li><a href='http://jpn.nec.com/press/201612/20161215_05.html'>AI技術を活用したデータ分析自動化の実証実験について</a></li></ul>"
+      ],
+      "buttonTitleToOfferPage": "採用に関する問い合わせ",
+      "offerPageUrl": "mailto:self-recruit@bid.jp.nec.com"
     }
   ]
 }
