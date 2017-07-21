@@ -49,7 +49,25 @@
       "offerPageUrl": "http://f-code.co.jp/recruit/web-engineer.html"
     }
   ],
-  "silver": [{
+  "silver": [
+    {
+      "name": "エムオーテックス株式会社",
+      "companyUrl": "http://www.motex.co.jp",
+      "logo": "motex_w240.png",
+      "link": "motex",
+      "title": "",
+      "message": [
+        "あなた：「次のプロジェクトはScalaで挑戦してみたいのですが…」<br>上司　：「そんな訳のわからない言語はダメです！」",
+        "というやり取りを経験したことのあるそこのあなた！",
+        "私たちと一緒に、ScalaでAkkaでDDDなプロダクトを一緒に作りませんか？<br>私たちは、日本でトップシェアを得ているプロダクトを携え、これから世界に打って出ます。",
+        "開発効率、品質アップのために選択した開発環境はScala、そしてAkka。<br>ユーザーの本当の課題を解決し、プロダクトが進化し続けるためのの手法として選択したのはDDD。",
+        "あなたの実力を存分に活かす為の環境を用意しています。<br>是非、世界に打って出る製品を一緒に作りましょう！ご応募お待ちしております！"
+      ],
+      "buttonTitleToOfferPage": "採用情報ページ",
+      "offerPageUrl": "http://www.motex.co.jp/recruit/career/"
+    },
+
+    {
       "name": "株式会社リンコード",
       "companyUrl": "http://www.linkode.co.jp/",
       "logo": "linkode_w240.png",
@@ -64,21 +82,6 @@
       ],
       "buttonTitleToOfferPage": "採用情報ページ",
       "offerPageUrl": "http://linkode.recruitment.jp/career"
-    },
-    {
-      "name": "株式会社ヌーラボ",
-      "companyUrl": "https://nulab-inc.com/",
-      "logo": "nulab_w240.png",
-      "link": "",
-      "title": "",
-      "message": [
-        "株式会社ヌーラボは「チームで働くすべての人に」をコンセプトに、仕事を楽しく、コラボレーションを促進するサービスを開発しています。プロジェクト管理の「<a target='_blank' href='http://www.backlog.jp/'>Backlog</a>」、図の作成と共有の「<a target='_blank' href='https://cacoo.com/lang/ja/home'>Cacoo</a>」、チームディスカッションの「<a target='_blank' href='https://www.typetalk.in/ja/'>Typetalk</a>」の開発、提供をおこなっています。",
-        "<a target='_blank' href='http://www.backlog.jp/'>Backlog</a>と<a target='_blank' href='https://www.typetalk.in/ja/'>Typetalk</a>ではScalaを採用しています。会社として<a target='_blank' href='https://scala.connpass.com/'>Scala福岡</a>という勉強会の支援や、既に開催50回目を超えるScalaや関数型プログラミングに関する勉強を実施しており、今後もさらにScalaに注力します。また、実際にサービスで利用するために開発したScalaのライブラリをGitHubで OSS として公開も行っています。",
-        "・<a target='_blank' href='https://github.com/nulab/scala-oauth2-provider'>oauth2-server for Scala</a>",
-        "本社は福岡ですが、国内では京都・東京、海外はニューヨークにも開発拠点があります。すべての拠点で開発者を募集していますので、Scalaを使った開発に興味がある方やヌーラボのサービスに興味がある方、「仕事の中に楽しさを」のコンセプトに共感する方、ぜひご応募ください。詳しくは<a target='_blank' href='https://nulab-inc.com/ja/about/careers/'>採用情報</a>や<a target='_blank' href='https://nulab-inc.com/ja/blog/categories/development/?ref=scalakansaisummit2016'>ヌーラボブログの技術カテゴリー</a>を参照してください。"
-      ],
-      "buttonTitleToOfferPage": "採用情報ページ",
-      "offerPageUrl": "https://nulab-inc.com/ja/about/careers/"
     },
     {
       "name": "株式会社はてな",
@@ -97,20 +100,19 @@
       "offerPageUrl": "http://hatenacorp.jp/recruit/"
     },
     {
-      "name": "エムオーテックス株式会社",
-      "companyUrl": "http://www.motex.co.jp",
-      "logo": "motex_w240.png",
-      "link": "motex",
+      "name": "株式会社ヌーラボ",
+      "companyUrl": "https://nulab-inc.com/",
+      "logo": "nulab_w240.png",
+      "link": "",
       "title": "",
       "message": [
-        "あなた：「次のプロジェクトはScalaで挑戦してみたいのですが…」<br>上司　：「そんな訳のわからない言語はダメです！」",
-        "というやり取りを経験したことのあるそこのあなた！",
-        "私たちと一緒に、ScalaでAkkaでDDDなプロダクトを一緒に作りませんか？<br>私たちは、日本でトップシェアを得ているプロダクトを携え、これから世界に打って出ます。",
-        "開発効率、品質アップのために選択した開発環境はScala、そしてAkka。<br>ユーザーの本当の課題を解決し、プロダクトが進化し続けるためのの手法として選択したのはDDD。",
-        "あなたの実力を存分に活かす為の環境を用意しています。<br>是非、世界に打って出る製品を一緒に作りましょう！ご応募お待ちしております！"
+        "株式会社ヌーラボは「チームで働くすべての人に」をコンセプトに、仕事を楽しく、コラボレーションを促進するサービスを開発しています。プロジェクト管理の「<a target='_blank' href='http://www.backlog.jp/'>Backlog</a>」、図の作成と共有の「<a target='_blank' href='https://cacoo.com/lang/ja/home'>Cacoo</a>」、チームディスカッションの「<a target='_blank' href='https://www.typetalk.in/ja/'>Typetalk</a>」の開発、提供をおこなっています。",
+        "<a target='_blank' href='http://www.backlog.jp/'>Backlog</a>と<a target='_blank' href='https://www.typetalk.in/ja/'>Typetalk</a>ではScalaを採用しています。会社として<a target='_blank' href='https://scala.connpass.com/'>Scala福岡</a>という勉強会の支援や、既に開催50回目を超えるScalaや関数型プログラミングに関する勉強を実施しており、今後もさらにScalaに注力します。また、実際にサービスで利用するために開発したScalaのライブラリをGitHubで OSS として公開も行っています。",
+        "・<a target='_blank' href='https://github.com/nulab/scala-oauth2-provider'>oauth2-server for Scala</a>",
+        "本社は福岡ですが、国内では京都・東京、海外はニューヨークにも開発拠点があります。すべての拠点で開発者を募集していますので、Scalaを使った開発に興味がある方やヌーラボのサービスに興味がある方、「仕事の中に楽しさを」のコンセプトに共感する方、ぜひご応募ください。詳しくは<a target='_blank' href='https://nulab-inc.com/ja/about/careers/'>採用情報</a>や<a target='_blank' href='https://nulab-inc.com/ja/blog/categories/development/?ref=scalakansaisummit2016'>ヌーラボブログの技術カテゴリー</a>を参照してください。"
       ],
       "buttonTitleToOfferPage": "採用情報ページ",
-      "offerPageUrl": "http://www.motex.co.jp/recruit/career/"
+      "offerPageUrl": "https://nulab-inc.com/ja/about/careers/"
     }
   ]
 }
