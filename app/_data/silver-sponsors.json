@@ -35,6 +35,11 @@
     "logo": "nulab_w240.png"
   },
   {
+    "name": "Fringe81株式会社",
+    "url": "http://www.fringe81.com",
+    "logo": "fringe81_w240.png"
+  },
+  {
     "name": "株式会社ことば研究所",
     "url": "http://kotoba-lab.jp/",
     "logo": "kotoba_w240.png"
@@ -43,5 +48,10 @@
     "name": "さくらインターネット株式会社",
     "url": "https://www.sakura.ad.jp/",
     "logo": "sakura-internet.svg"
+  },
+  {
+    "name": "キャッシュビー株式会社",
+    "url": "http://cashb.jp/",
+    "logo": "cashb_w240.png"
   }
 ]
