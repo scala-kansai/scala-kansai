@@ -47,6 +47,24 @@
       ],
       "buttonTitleToOfferPage": "採用情報ページ",
       "offerPageUrl": "http://f-code.co.jp/recruit/web-engineer.html"
+    },
+    {
+      "name": "ChatWork株式会社",
+      "companyUrl": "http://corp.chatwork.com/ja/",
+      "logo": "chatwork_w300.png",
+      "link": "chatwork",
+      "title": "Scalaエンジニア絶賛募集中！",
+      "message": [
+        "当社の提供しているクラウド型ビジネスチャットツール「チャットワーク」の開発。",
+        "&nbsp;",
+        "画面遷移のないフルAjaxの大規模JavaScriptアプリケーション",
+        "サーバープッシュを使ったリアルタイム通信処理",
+        "膨大なリクエスト/データを処理するクラウドサーバー運用",
+        "多言語/グローバル対応など、次世代のWebアプリケーションというべき実装となっており最新のIT技術・ノウハウを駆使して開発をおこなっていただきます。",
+        "エンジニアとして開発だけを担当するのではなく、チャットワークの機能企画や仕様設計なども含め、プロダクト全体を通しての視点で、いかにサービス価値を高めていけるかを追求していける方をお待ちしています。"
+      ],
+      "buttonTitleToOfferPage": "採用情報ページ",
+      "offerPageUrl": "http://corp.chatwork.com/ja/recruit/engineer/"
     }
   ],
   "silver": [
