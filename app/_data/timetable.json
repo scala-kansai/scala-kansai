@@ -221,11 +221,11 @@
     "contents": [
       {
         "id": "S18",
-        "title": "TBD",
-        "speaker": "",
-        "profile": "",
-        "image": "",
-        "description": "随時、情報を公開します。",
+        "title": "「Scale with Scala」の道程",
+        "speaker": "松坂 高嗣",
+        "profile": "<p>株式会社エフコードで執行役員CTOをしています猫と日本酒を嗜みます。</p><p>好きなオブジェクトはパッケージオブジェクトです。</p><p><i class='twitter icon'></i><a href='https://twitter.com/ma2saka'>ma2saka</a></p>",
+        "image": "https://pbs.twimg.com/profile_images/835287114233176064/ZVe-JhPO_400x400.jpg",
+        "description": "<p>株式会社エフ・コードではもともとJavaでサービスを開発していました。</p><p>2016年末に事業スケールのためにコードベースのScala化を決め、既存サービスの一部から導入を始めました。今では新規コードベースはほぼScalaで開発しています。</p><p>このセッションでは、Javaだった会社がScalaでサービスを作り直そうとする取り組み、技術的課題、心理的ハードル、そして肝心の全Scala化の進捗についてお話できればと思います。</p><p>これから組織としてScalaに舵を切るべきか検討している方や、Scala気になってるけどなかなか手が出ないといった方向けに、有益な事例を紹介できれば幸いです。</p>",
         "rowspan": ""
       },
       {
