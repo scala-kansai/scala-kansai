@@ -46,11 +46,6 @@
     "url": "https://twitter.com/tomo_matsushi"
   },
   {
-    "name": "たむらてるみ",
-    "image": "https://pbs.twimg.com/profile_images/752026012402085888/etv1RwMA.jpg",
-    "url": "https://twitter.com/_uercus"
-  },
-  {
     "name": "Yoshitaka Fujii",
     "image": "https://pbs.twimg.com/profile_images/653197061446176768/BFasWa5L.jpg",
     "url": "https://twitter.com/yoshiyoshifujii"
@@ -74,5 +69,10 @@
     "name": "tamagoya",
     "image": "https://pbs.twimg.com/profile_images/1117138947/____.png",
     "url": "https://twitter.com/asaborake"
+  },
+  {
+    "name": "山崎 好洋",
+    "image": "images/icons/yamasaki.JPG",
+    "url": "https://twitter.com/44x1carbon"
   }
 ]
