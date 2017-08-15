@@ -30,7 +30,7 @@
         "speaker": "amaya",
         "profile": "<p>Scalaの追っかけをしている学生. そろそろ社会に放り出される予定.</p>",
         "image": "https://pbs.twimg.com/profile_images/2888329059/491aa8f5d33a892852bada97061e4eb1_400x400.png",
-        "description": "<p>Scalaを利用したプロジェクトの始め方を基礎の基礎からご紹介します.</p> <p>新しい言語にチャレンジするときに躓きがちな環境セットアップ方法, 周辺ツールの選択やライブラリの使い方といった部分を中心に取り扱います.</p><p>具体的なツールとして, ビルドツールにsbt (+sbtを動作させるためのJDK8), 開発環境としてIntellij IDEA Communityを利用しますので, **必ず事前にインストール** をお願いします (どちらも無料で利用できるツールです).</p><p>参考: <a href='http://www.scala-sbt.org/0.13/docs/ja/Setup.html' target='_blank'>sbtのインストール</a>, <a href='https://www.jetbrains.com/idea/' target='_blank'>Intellij IDEA</a></p>",
+        "description": "<p>Scalaを利用したプロジェクトの始め方を基礎の基礎からご紹介します.</p> <p>新しい言語にチャレンジするときに躓きがちな環境セットアップ方法, 周辺ツールの選択やライブラリの使い方といった部分を中心に取り扱います.</p><p>具体的なツールとして, ビルドツールにsbt (+sbtを動作させるためのJDK8), 開発環境としてIntellij IDEA Communityを利用しますので, <b>必ず事前にインストール</b> をお願いします (どちらも無料で利用できるツールです).</p><p>参考: <a href='http://www.scala-sbt.org/0.13/docs/ja/Setup.html' target='_blank'>sbtのインストール</a>, <a href='https://www.jetbrains.com/idea/' target='_blank'>Intellij IDEA</a></p>",
         "rowspan": ""
       }
     ]
