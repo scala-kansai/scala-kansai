@@ -26,7 +26,7 @@
     "contents": [
       {
         "id": "H2",
-        "title": "ゼロから始めるScalaプロジェクト",
+        "title": "【ハンズオン】ゼロから始めるScalaプロジェクト",
         "speaker": "amaya",
         "profile": "<p>Scalaの追っかけをしている学生. そろそろ社会に放り出される予定.</p><p><i class='twitter icon'></i><a href='https://twitter.com/amaya382'>amaya382</a></p><p><i class='github icon'></i><a href='https://github.com/amaya382'>amaya382</a></p><p>HP: <a href='http://sapphire.in.net'>http://sapphire.in.net</a></p>",
         "image": "https://pbs.twimg.com/profile_images/2888329059/491aa8f5d33a892852bada97061e4eb1_400x400.png",
@@ -47,7 +47,7 @@
     "contents": [
       {
         "id": "H3",
-        "title":"関数プログラミングことはじめ revival (ハンズオン)",
+        "title":"【ハンズオン】関数プログラミングことはじめ revival",
         "speaker":"木虎 直樹",
         "profile":"<p>シナジーマーケティング株式会社で働く IT エンジニア。</p><p>2011年からソフトウェア開発に Scala を使い始め、社内の一部でも使われるようになった。</p><p>が、最近の主な業務はプログラミングではなくなってきている。</p>",
         "image":"http://event.shoeisha.jp/static/images/event/497/images/b3_mr_kitora.jpg",
