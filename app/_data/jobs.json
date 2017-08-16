@@ -148,6 +148,22 @@
       ],
       "buttonTitleToOfferPage": "採用に関する問い合わせ",
       "offerPageUrl": "mailto:self-recruit@bid.jp.nec.com"
+    },
+    {
+      "name": "さくらインターネット株式会社",
+      "companyUrl": "https://www.sakura.ad.jp/",
+      "logo": "sakura-internet.svg",
+      "link": "",
+      "title": "",
+      "message": [
+        "<a href=\"https://www.sakura.ad.jp/\">さくらインターネット株式会社</a>は、\"インターネット\" で熱量を持って挑戦するすべての人の <strong>「やりたいこと」を「できる」に変える</strong> をモットーに、さまざまなインターネットインフラサー>ビスを提供しています。",
+        "最近はさくらでもScalaを少しずつ使い始めています。例えば、さくらインターネットが提供するIoTプラットフォームサービス「<a href='https://sakura.io/'>sakura.io</a>」では、Golang/Python/Scala/Cの4つの言語を主に使っており、メイン言語のひとつとなっています。",
+        "また、当社では現在「<a href='https://www.sakura.ad.jp/corporate/corp/sabulico/'>さぶりこ（Sakura Business and Life Co-Creation）</a>」という取り組みを通じ、働きやすさにこだわった企業づくりを推進しています。",
+        "今年の6月に移転したばかりのグランフロント梅田の新本社オフィスにはオープンエリアを用意し、コミュニティへの会場提供も積極的に行っています。",
+        "こんなさくらインターネットで働くことにもしご興味をお持ちいただけましたら、ぜひ採用情報ページをご覧ください。"
+      ],
+      "buttonTitleToOfferPage": "採用情報ページ",
+      "offerPageUrl": "https://www.sakura.ad.jp/recruit/"
     }
   ]
 }
