@@ -30,7 +30,7 @@
         "speaker": "amaya",
         "profile": "<p>Scalaの追っかけをしている学生. そろそろ社会に放り出される予定.</p><p><i class='twitter icon'></i><a href='https://twitter.com/amaya382'>amaya382</a></p><p><i class='github icon'></i><a href='https://github.com/amaya382'>amaya382</a></p><p>HP: <a href='http://sapphire.in.net'>http://sapphire.in.net</a></p>",
         "image": "https://pbs.twimg.com/profile_images/2888329059/491aa8f5d33a892852bada97061e4eb1_400x400.png",
-        "description": "<p>Scalaを利用したプロジェクトの始め方を基礎の基礎からご紹介します.</p> <p>新しい言語にチャレンジするときに躓きがちな環境セットアップ方法, 周辺ツールの選択やライブラリの使い方といった部分を中心に取り扱います.</p><p>具体的なツールとして, ビルドツールにsbt(1.0.0 または 0.13.13+) (+sbtを動作させるためのJDK8), 開発環境としてIntellij IDEA Communityを利用しますので, <b>必ず事前にインストール</b> をお願いします (どちらも無料で利用できるツールです).</p><p>参考: <a href='http://www.scala-sbt.org/0.13/docs/ja/Setup.html' target='_blank'>sbtのインストール</a>, <a href='https://www.jetbrains.com/idea/' target='_blank'>Intellij IDEA</a></p>",
+        "description": "<p>Scalaを利用したプロジェクトの始め方を基礎の基礎からご紹介します.</p> <p>新しい言語にチャレンジするときに躓きがちな環境セットアップ方法, 周辺ツールの選択やライブラリの使い方といった部分を中心に取り扱います.</p><p>具体的なツールとして, ビルドツールにsbt(1.0.0 または 0.13.13+) (+sbtを動作させるためのJDK8), 開発環境としてIntellij IDEA Communityを利用しますので, <b>必ず事前にインストール</b> をお願いします (どちらも無料で利用できるツールです).</p><p>参考: <a href='http://www.scala-sbt.org/0.13/docs/ja/Setup.html' target='_blank'>sbtのインストール</a>, <a href='https://www.jetbrains.com/idea/' target='_blank'>Intellij IDEA</a>, <a href='https://gist.github.com/amaya382/ce049e2f869dd58b9500ecf775307713' target='_blank'>Scala関西Summit 2017: ハンズオン事前準備</a></p>",
         "rowspan": ""
       }
     ]
@@ -72,7 +72,7 @@
         "speaker": "高嶋 隆博",
         "profile": "<p>株式会社セプテーニ・オリジナルのエンジニアです。</p><p>ScalaとDDDを基礎にプロダクトの開発を頑張ってます。</p>",
         "image": "https://www.gravatar.com/avatar/44ee497a638689b79d9808a8292a0601?s=400",
-        "description": "<p>PlayFrameworkを題材にIntelliJの強力なデバッガについて学ぶハンズオンです。</p><p>jvmへのデバッガのアタッチ、sbtの設定、IntelliJのデバッガの各機能の簡単な説明をPlayFrameworkでありがちなケースを題材に紹介していきます。</p><p>必要な環境：Scala(2.12)、sbt(0.13.16)、IntelliJ(2017.2.1)</p>",
+        "description": "<p>PlayFrameworkを題材にIntelliJの強力なデバッガについて学ぶハンズオンです。</p><p>jvmへのデバッガのアタッチ、sbtの設定、IntelliJのデバッガの各機能の簡単な説明をPlayFrameworkでありがちなケースを題材に紹介していきます。</p><p>必要な環境：Scala(2.12)、sbt(0.13.16)、IntelliJ(2017.2.1)</p><p>必要な事前準備：sbt new playframework/play-scala-seed.g8 の実行 (できれば一度実行してブラウザで「HelloWorld!」まで表示するところまでやっておいてください。)</p>",
         "rowspan": ""
       }
     ]
