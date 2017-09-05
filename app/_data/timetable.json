@@ -254,11 +254,11 @@
     "contents": [
       {
         "id": "S21",
-        "title": "Java Flight Recorder でボトルネックをみつける",
+        "title": "Scala on JVM をプロファイリングするツールの紹介",
         "speaker": "河内 崇",
         "profile": "<p>Scalaプログラマ。今年3月に現在の会社に転職した。2児の父。</p> <p><i class='github icon'></i><a href='https://github.com/tkawachi'>tkawachi</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/kawachi'>kawachi</a></p>",
         "image": "https://www.gravatar.com/avatar/35ea8f83cd8d191f834c69a5481613e9?s=200",
-        "description": "<p>仕事を終えて帰ろうとしたときに後ろから声をかけられた。「なんかプログラムが遅いんですよ」</p><p>本セッションでは Java Flight Recorder で情報を記録する方法や Java Mission Control でボトルネックをみつける方法について話します。</p>",
+        "description": "<p>仕事を終えて帰ろうとしたときに後ろから声をかけられた。「なんかプログラムが遅いんですよ」</p><p>JVM 上で動作している Scala コードは Java 用のツールを使ってプロファイリングできます。本セッションでは JVM 上で使えるパフォーマンスプロファイリングツールを紹介します。</p>",
         "rowspan": ""
       },
       {
