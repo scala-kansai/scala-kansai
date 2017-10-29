@@ -10,9 +10,10 @@
                 "profile": "<p>Scalaの追っかけをしている学生. そろそろ社会に放り出される予定.</p><p><i class='twitter icon'></i><a href='https://twitter.com/amaya382'>amaya382</a></p><p><i class='github icon'></i><a href='https://github.com/amaya382'>amaya382</a></p><p>HP: <a href='http://sapphire.in.net'>http://sapphire.in.net</a></p>",
         "image": "https://pbs.twimg.com/profile_images/2888329059/491aa8f5d33a892852bada97061e4eb1_400x400.png",
         "description": "<p>Scalaを全く (orほとんど) 触ったことがない方向けにScalaの基本文法をご紹介します.</p> <p>特に他の言語と異なる部分を中心に取り扱いますので, Java又は類似するオブジェクト指向言語を最低限知っていることを前提に進む予定です.</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://www.slideshare.net/amaya_382/scala-79376655"
       }
-    ]
+    ]    
   },
   {
     "start": "11:30",
@@ -31,7 +32,8 @@
         "profile": "<p>Scalaの追っかけをしている学生. そろそろ社会に放り出される予定.</p><p><i class='twitter icon'></i><a href='https://twitter.com/amaya382'>amaya382</a></p><p><i class='github icon'></i><a href='https://github.com/amaya382'>amaya382</a></p><p>HP: <a href='http://sapphire.in.net'>http://sapphire.in.net</a></p>",
         "image": "https://pbs.twimg.com/profile_images/2888329059/491aa8f5d33a892852bada97061e4eb1_400x400.png",
         "description": "<p>Scalaを利用したプロジェクトの始め方を基礎の基礎からご紹介します.</p> <p>新しい言語にチャレンジするときに躓きがちな環境セットアップ方法, 周辺ツールの選択やライブラリの使い方といった部分を中心に取り扱います.</p><p>具体的なツールとして, ビルドツールにsbt(1.0.0 または 0.13.13+) (+sbtを動作させるためのJDK8), 開発環境としてIntellij IDEA Communityを利用しますので, <b>必ず事前にインストール</b> をお願いします (どちらも無料で利用できるツールです).</p><p>参考: <a href='http://www.scala-sbt.org/0.13/docs/ja/Setup.html' target='_blank'>sbtのインストール</a>, <a href='https://www.jetbrains.com/idea/' target='_blank'>Intellij IDEA</a>, <a href='https://gist.github.com/amaya382/ce049e2f869dd58b9500ecf775307713' target='_blank'>Scala関西Summit 2017: ハンズオン事前準備</a></p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://www.slideshare.net/amaya_382/scala-79376647"
       }
     ]
   },
@@ -52,7 +54,8 @@
         "profile":"<p>シナジーマーケティング株式会社で働く IT エンジニア。</p><p>2011年からソフトウェア開発に Scala を使い始め、社内の一部でも使われるようになった。</p><p>が、最近の主な業務はプログラミングではなくなってきている。</p>",
         "image":"http://event.shoeisha.jp/static/images/event/497/images/b3_mr_kitora.jpg",
         "description":"<p>単な例を使い命令プログラミングと関数プログラミングにおける問題へのアプローチの違いを体験してもらいます。再帰のコードは読みづらい、あるいは、ループなしでどうやってコードを書くのかというような疑問を持っている人には良いかもしれません。内容は昨年実施したものとほぼ同じです。<p>&nbsp;</p><p>使用予定環境：</p><ul><li>JDK</li><li>IntelliJ IDEA CE</li><li>Scala プラグイン</li></ul><p>(会場のネットワーク環境の都合上 &quot;必ず&quot; 事前に準備をお願いします)</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://www.slideshare.net/kitora/scala-summit-2017"
       }
     ]
   },

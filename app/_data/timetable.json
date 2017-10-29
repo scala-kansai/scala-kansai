@@ -10,7 +10,9 @@
         "profile": "<p>株式会社ビズリーチ所属。Scala関連書籍の執筆・翻訳をしたり、GitBucket、Scalatra、Apache PredictionIOなどのコミッタをやったりしています。</p><p><i class='github icon'></i><a href='https://github.com/takezoe'>takezoe</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/takezoen'>takezoen</a></p> <p><span>ブログ</span> <a href='http://takezoe.hatenablog.com/'>takezoe</a>",
         "image": "http://www.java-users.jp/ccc2016fall/assets/img/speakers/pm_cd_time2.png",
         "description": "<p>ここ最近「Scala界隈は怖い」との風評がありますが、Scalaは元来関数型言語の知識がなくても利用できるよう設計されています。</p><p>とはいえ近年のScala界隈にはモナモナしたフレームワーク、ライブラリ、マテリアルに満ち溢れており、関数型プログラミングを避けて生きていくことが難しい状況になってきています。</p><p>このセッションではBetter Java言語としてのScalaに再注目し、関数型プログラミングを極力意識せず、かつScalaのメリットを最大限活かすための方法について、プログラミング手法からライブラリやフレームワークの選定に至るまで再考してみたいと思います。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://www.slideshare.net/takezoe/nonfunctional-programming-in-scala-79589912",
+        "movie": "https://youtu.be/kbP0WsCMQ8w"
       },
       {
         "id": "S2",
@@ -19,7 +21,7 @@
         "profile": "<p>現在株式会社エフコードでScalaを使って開発しています。</p><p><i class='twitter icon'></i><a href='https://twitter.com/hideA88'>hideA88</a></p>",
         "image": "https://pbs.twimg.com/profile_images/992527204/156_400x400.jpg",
         "description": "<p>ユーザーの行動ログを解析して、様々な条件で解析結果を返すログ分析基盤をSparkや、Akkaを組み合わせてScalaで開発しました。</p><p>それぞれをどういう役割のところで利用したのか、そのときに考慮した内容・Scalaで嬉しかったことなどをお話できればと思っています。</p>",
-        "rowspan": ""
+        "rowspan": ""        
       },
       {
         "id": "S3",
@@ -28,7 +30,8 @@
         "profile": "<p>4月まで社内システムのインフラリーダーやってました。5月から社内プロジェクトのGANMA!にjoinすることになりScalaの研修を楽しくやってます。</p>",
         "image": "https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-9/12246889_540763006080824_8651861949735233222_n.jpg?oh=f7d09891767e1f6a64642fbace8c36d3&oe=59DCB662",
         "description": "<p>インフラエンジニアが社内でジョブチェンジしてサーバーサイドエンジニアになりました。</p><p>知識ゼロなところから、社内のScala研修を受けての学びとつまずいたところを発表します。</p><p>最初は謎の文字列にしか見えなかったScalaがプログラミング言語として見えるようになり、「Scalaって怖くないんだ、大丈夫だよ」ということを伝えます</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "movie": "https://youtu.be/Q9RMg5H4tiI"
       }
     ]
   },
@@ -43,7 +46,9 @@
         "profile": "<p>ChatWorkでScalaエンジニアをしています。最近は Akka を使うことが多いです。</p> <p><i class='github icon'></i><a href='https://github.com/hayasshi'>hayasshi</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/hayasshi_'>hayasshi_</a></p>",
         "image": "images/speakers/hayasshi.png",
         "description": "<p>2016年末、ChatWorkはFalconをリリースしました</p><p><a href='https://speakerdeck.com/j5ik2o/history-of-falcon-the-way-to-production-release'>https://speakerdeck.com/j5ik2o/history-of-falcon-the-way-to-production-release</a><br><a href='https://speakerdeck.com/j5ik2o/chatworkfalsexin-metusezingusisutemuwozhi-eruji-shu'>https://speakerdeck.com/j5ik2o/chatworkfalsexin-metusezingusisutemuwozhi-eruji-shu</a></p><p>上記の資料にある通り、FalconのScala&Akkaアプリケーションは、Kubernetes上でコンテナとして分散実行されています。</p><p>この発表では、Scala&AkkaアプリケーションをKubernetesで運用する上で、デプロイ、メトリクス、ログなどをどのように扱っているか、ChatWorkにおける事例をご紹介します。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://speakerdeck.com/hayasshi/scala-and-akka-apps-on-kubernetes-in-chatwork",
+        "movie": "https://youtu.be/76gSDbzDw_8"
       },
       {
         "id": "S5",
@@ -52,7 +57,9 @@
         "profile": "<p>こんにちは。ダイエットを頑張ろうと筋力トレーニングばかりをしていたらプロレスラーのような体になってきたプログラマ&スモールビジネスな会社を経営している神戸在住の松下です。</p><p>主に静的言語が好きで昔はJavaメインに開発してましたが、ここ数年ですっかりScalaメインになりました。</p><p>髪型と体型でプログラマっぽく見えないようですがお気軽に話しかけてください。</p><p><i class='facebook icon'></i><a href='https://www.facebook.com/tomokazu.matsushita.5'>tomokazu.matsushita.5</a></p><p><i class='github icon'></i><a href='https://github.com/tierline'>tierline</a><br><i class='github icon'></i><a href='https://github.com/MomoPine'>MomoPine</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/tomo_matsushi'>tomo_matsushi</a></p>",
         "image": "images/speakers/tomokazu-matsushita.jpg",
         "description": "<p>Scalaでの開発、導入実績の事例として、株式会社ティアライン（本人が所属）でスクラッチから開発し保守運用中の物流倉庫業務システムを設計、ソースコードを用いてScala導入の開発メリットなどを解説します。</p><p>本システムでは、下記のOSSフレームワークを用いております。<br>フロントエンド ：React.js、Scala.js<br>バックエンド      ：Scala, Scalatra,Scalate,ActiveModel(squerylベース)</p><p>上記のフレームワークに興味がある方や、他の言語とどれくらい違うのか、どれくらい学びやすい言語なのか、を考えている初心者の方やマネージャー層を対象に、少しでもScalaの導入障壁を下げるような事例として「Scalaの良さ」をご紹介できれば幸いです。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://www.slideshare.net/TomokazuMatsushita/scala-79921681",
+        "movie": "https://youtu.be/1zH8AXgDyfo"
       },
       {
         "id": "S6",
@@ -61,7 +68,9 @@
         "profile": "<p><i class='twitter icon'></i><a href='https://twitter.com/nosattee'>nosattee</a></p>",
         "image": "images/speakers/nosatohirotaka.jpg",
         "description": "<p>分散型ディープラーニングライブラリであるBigDLを使用して、今アツイ機械学習にトライした話をします。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://www.slideshare.net/hirotakanosato/bigdlscala-deeplearning-79955514",
+        "movie": "https://youtu.be/AEq0dyIKMzs"
       }
     ]
   },
@@ -82,7 +91,9 @@
         "profile": "<p>フリーランスのプログラマです。</p><p>Java歴17年、Scala歴1年半ですが、もうJavaには戻れなくなってしまいました。</p><p>現在は、Scala・AWSを使ってDDDでプロダクト開発をしています。</p> <p><i class='github icon'></i><a href='https://github.com/crossroad0201'>crossroad0201</a></p> <p><i class='twitter icon'></i><a href='https://twitter.com/crossroad0201'>crossroad0201</a></p>",
         "image": "https://pbs.twimg.com/profile_images/1236925246/crossroad0201_400x400.jpg",
         "description": "​<p>昨今のプロダクト開発において、DDD(ドメイン駆動設計)はもはや当たり前になりつつあります。</p><p>Scalaの強力な言語機能と豊富な表現力はDDDとも相性が良いですが、 その反面、DDD本来の抽象度の高さもあってどう設計・実装するかに 明確な答えはなく、迷いどころ満載です。</p><p>このセッションでは、現場での経験をもとにScalaでのDDD実践の一例をご紹介します。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://speakerdeck.com/crossroad0201/scala-on-ddd",
+        "movie": "https://youtu.be/4zqOUNCOShs"
       },
       {
         "id": "S8",
@@ -91,7 +102,9 @@
         "profile": "<p>ScalaMatsuri座長として、主に組織づくり、スポンサーや海外からの講演者集めに従事。</p><p>また、株式会社セプテーニ・オリジナル 技術アドバイザーとして、Pull Reqレビューや新人Scala研修などの面でお手伝いをしています。</p>",
         "image": "https://pbs.twimg.com/profile_images/513688856479027201/xQCPwsak_400x400.jpeg",
         "description": "<p>今年、ついにDotty (a.k.a. Scala 3.0)が正式にScalaのロードマップに加わり、また気軽に試せるようになりました。</p><p>このトークでは、Dottyで導入される新機能やバグ修正を紹介するだけでなく、 そのモチベーションの源泉である現行版であるScala 2.x系の制限・つらみ、ときにはScalaパズルのような一見謎に見える挙動についてスポットライトをあてることで、 今のScala 2.x系についてもより深く理解する一助となることを目指しています。</p><p>また、Scala 2系から3系への移行をスムーズにするために、既に開発が進んでいるScalafix等のツール群についても紹介します。</p><p>さあ、ワクワクしながらDottyのリリースを待ちましょう！</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://www.slideshare.net/TaisukeOe/what-dotty-fixes-scala",
+        "movie": "https://youtu.be/KgjmmE89YQ0"
       },
       {
         "id": "S9",
@@ -100,7 +113,9 @@
         "profile": "<p>東京都内で Scala 書くお仕事してます。猫とカレーとヒトカラが大好き。Monocle のコミッターです。</p> <p><i class='github icon'></i><a href='https://github.com/aoiroaoino'>aoiroaoino</a></p> <p><i class='twitter icon'></i><a href='https://twitter.com/AoiroAoino'>AoiroAoino</a></p>",
         "image": "https://pbs.twimg.com/profile_images/556312366862708736/jmQUaeoW_400x400.jpeg",
         "description": "<p>Scala はその表現力の高さから JVM 上で豊かな Functional Programming （以下、FP）が可能な言語の一つです。</p><p>しかし、それらの恩恵を得ようといざ FP をコンセプトに掲げるライブラリに触れてみると <ul><li>記号や見慣れない名前のメソッドが多くて読めない</li><li>そもそもどんな場面で使う/使える/便利なのかわからない</li><li>Monad とは？圏論をなど数学を勉強する必要があるのか？</li></ul>などをはじめとする壁に遭遇し、ネガティブなイメージを抱いてしまう方を見かけます。</p><p>これらのイメージや噂が事実かはさておき、いくつかのポイントさえ押さえれば決して難しいものではありません。</p><p>本セッションでは、Scala で FP をするために必要な知識、標準機能やデザインパターン等から出発し、より FP 的側面に親しみを持って頂けるようなお話をしたいと思います。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://www.slideshare.net/AoiroAoino/scala-79575940",
+        "movie": "https://youtu.be/L670n-eSxow"
       }
     ]
   },
@@ -121,7 +136,8 @@
         "profile": "<p>元々はエンジニアですが最近はマネージメントより。</p> <p>普段は Java や Scala を使います。 インフラやエディタの話もよくします。 日本酒が好きです。</p> <p><i class='twitter icon'></i><a href='https://twitter.com/nishikawasasaki'>nishikawasasaki</a></p>",
         "image": "images/speakers/nishikawasasaki.jpeg",
         "description": "<p>普通にメソッドチェーンを使用した場合とAkka Streams を使用した場合とで、どのように処理やデータの流れ方が変わるのか説明します。</p><p>また、Akka Streams を利用することのメリットについてもお話しできればと思います。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "movie": "https://youtu.be/ncDElass5FY"
       },
       {
         "id": "S11",
@@ -130,7 +146,9 @@
         "profile": "<p><span>ブログ</span> <a href='http://s-edword.hatenablog.com/'>s-edword</a>",
         "image": "https://avatars3.githubusercontent.com/u/3461074?v=3&s=460",
         "description": "<p>AWS ECS(Docker)を使ったScalaアプリケーション</p><p>JavaエンジニアからScalaエンジニアになって、半年、akka http, akka streamを使ったREST APIをAWS ECSで動かしてみて感じたことを中心に話たいと思っています</p><ul><li>Scala 初心者を対象に、akka http, akka streamの説明</li><li>実行可能Jarを作成するためのsbtについて(assembly plugin)</li><li>AWS ECS、AWS ALB(ELB)について</li><li>Dockerによる再現性確保の利点について</li><li>AWS LambdaのようなサーバレスとECS(Docker)の使い分けについて考えていること</li><li>なぜ、Scalaなのか、Scalaについて日頃いいなと思っている点について</li><ul><li>再帰関数とパターンマッチング</li><li>Actorのレシーバでのパターンマッチング</li><li>akka streamでのmap、fold</li><li>その他、Try, Either, Future, Option と for とかは時間等の兼ね合いをみて</li></ul></ul>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://speakerdeck.com/takesection/scala-kansai-summit-2017",
+        "movie": "https://youtu.be/8jBqmWP6WCA"
       },
       {
         "id": "S12",
@@ -139,7 +157,9 @@
         "profile": "<p>Web会社から転職して今はTameccoで働いています。</p> <p><i class='github icon'></i><a href='https://github.com/buster84'>buster84</a></p>",
         "image": "https://secure.gravatar.com/avatar/8a01b3d9144f1ab3bdfdc5d1d3d93cb4",
         "description": "<p>Spark-notebook というJupyterのScalaバージョンといったツールを使ってアルゴリズム開発を行った事例紹介をします。</p><p>Spark-notebookのlive-coding, Visualization, ノートのシェアが容易といった特徴を生かしたモダンな開発をデモも交えて説明しています。</p>",
-        "rowspan": "2"
+        "rowspan": "2",
+        "slide": "https://www.slideshare.net/YasukiOkumura/sparknotebook",
+        "movie": "https://youtu.be/pAdrVymmjt8"
       }
     ]
   },
@@ -154,7 +174,9 @@
         "profile": "<p>普段はScala, Golang, JS, Ansible等を書いて sakura.io というサービスを作っています。</p> <p><i class='github icon'></i><a href='https://github.com/kamijin-fanta'>kamijin-fanta</a></p> <p><i class='twitter icon'></i><a href='https://twitter.com/kamijin_fanta'>kamijin_fanta</a></p>",
         "image": "https://avatars1.githubusercontent.com/u/1541187",
         "description": "<p>最近ではスケール・応答性を意識し、ストリーム処理を行うことが多くなってきました。</p><p>Scalaで使われるストリーム処理ライブラリに\"Akka Stream\"が有ります。</p><p>言語仕様を活かし、再利用可能なパーツを組み合わせて全体のストリーム処理を作ります。</p><p>このセッションでは、中核となる「Graph」という概念を中心に、Akka Streamの基礎を紹介します。</p><p>Scalaの基本的な文法を理解している方を対象としています。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://speakerdeck.com/kamijin_fanta/2017-09-09-scala-kansai-summit-akka-streams",
+        "movie": "https://youtu.be/B37P8S8PPG0"
       },
       {
         "id": "S14",
@@ -187,7 +209,9 @@
         "image": "https://avatars1.githubusercontent.com/u/15612969?v=3&s=400",
         "image2": "https://pbs.twimg.com/profile_images/795070591313186816/gzv01T2E_400x400.jpg",
         "description": "<p>ReladomoはエンタープライズグレードのOSS Java ORMフレームワークで、バイテンポラルデータモデルのサポート、強力に型付けられたクエリー言語、シャーディングのネイティブサポート等、ユニークな機能を持ちます。</p><p>本セッションでは、Reladomoの概要や特徴を説明したのち、ScalaからReladomoの扱いを容易にするreladomo-scalaを紹介し、Scalaからバイテンポラルモデルを扱う上でのプラクティスやユースケースを紹介します。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://www.slideshare.net/itohiro73/reladomo-in-scala-scalaks",
+        "movie": "https://youtu.be/HjCHaZsEodc"
       },
       {
         "id": "S16",
@@ -196,7 +220,9 @@
         "profile": "<p>2011年3月、筑波大学大学院システム研究科コンピュータサイエンス専攻終了（博士（工学））。その後、いくつかの会社を経て現職。プログラミング言語作りや、構文解析に強い興味を持つ。</p><p>また、最近ではプログラミングやコンピュータサイエンス教育にも興味を持っている。</p> <p><i class='github icon'></i><a href='https://github.com/kmizu'>kmizu</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/kmizu'>kmizu</a></p>",
         "image": "images/speakers/kmizu_fb_2017_05.jpg",
         "description": "<p>Scalaを普段使っている方なら、まず使ったことがあるはずのプレースホルダ構文。</p><p>このプレースホルダ構文、 list.map(_.size) のような単純な使い方についてはよく説明されていますが、全体としてどのような特性があるかについて説明した文献はScala言語仕様の他にはないと思います。</p><p>今回は、言語オタクとして、この機能がいかに興味深いか、面白いかについて語ります。これであなたもプレースホルダ構文を完全理解！</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "http://kmizu.github.io/scala-kansai-summit-2017/#/",
+        "movie": "https://youtu.be/VT5NxnibvXg"
       },
       {
         "id": "S17",
@@ -205,7 +231,9 @@
         "profile": "<p><i class='github icon'></i><a href='https://github.com/grimrose'>grimrose</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/grimrose'>grimrose</a></p><p><span>ブログ</span> <a href='http://www.grimrose.org'>grimrose</a></p>",
         "image": "https://avatars3.githubusercontent.com/u/623724",
         "description": "<p>現在もともとPHPで作られていた集計業務システムをScalaへ置き換えています。</p><p>チームが成熟したのを機に、まずバッチ処理をAkka Streamsに移行し始めました。</p><p>また、Akka HTTPを導入してPHPが持っていたAPIのサービスも一部移行を始めています。</p><p>Akka Streamsを導入してどう変わったのか、ハマったところ等を紹介します。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide":"https://nbviewer.jupyter.org/format/slides/github/grimrose/scala-kansai-summit-2017/blob/master/Migration%20to%20Akka%20Streams.ipynb#/",
+        "movie": "https://youtu.be/YPg7Px-aC98"
       }
     ]
   },
@@ -235,7 +263,9 @@
         "profile": "<p><i class='twitter icon'></i><a href='https://twitter.com/masayadk1229'>masayadk1229</a></p>",
         "image": "https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-9/16425802_1415795005158956_3886680806833729833_n.jpg?oh=a00a3cf4a904cb6588ec65ae76480096&oe=59FA2C6C",
         "description": "<p>SwiftでiOS開発をしている方向けにScalaに入門していただくための最初の1歩となる内容で発表致します。</p><p>Scalaという名前を聞いたことがある、Scalaが怖いというイメージを持っている方にSwiftとScalaのコードを見比べていき、簡単に紹介していきます。</p><p>逆にScalaがわかっている方はSwiftが少しわかるようになるかもしれません。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://www.slideshare.net/MasayaDake/iosscala-79565464",
+        "movie": "https://youtu.be/XyHN6RdSVwg"
       },
       {
         "id": "S20",
@@ -244,7 +274,9 @@
         "profile": "<p>Fringe81でScalaでのサーバーサイドエンジニアをしています。</p><p><i class='github icon'></i><a href='https://github.com/petitviolet'>petitviolet</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/petitviolet'>petitviolet</a></p>",
         "image": "https://ja.gravatar.com/userimage/30389239/8575c9126a8e1179b4013fb48a25c2a7.jpg?size=300",
         "description": "<p>Scalaには強力な言語機能がありますが、それをより強力にするメタプログラミング。</p><p>それでも何となく難しそうなマクロを使うことに抵抗がある人を多いと思います。</p><p>scalametaが新しいメタプログラミングの主流となりそうな今、入門するのにいいチャンスです。</p><p>scalametaで出来ること、使い方を紹介します。</p>",
-        "rowspan": "2"
+        "rowspan": "2",
+        "slide": "https://speakerdeck.com/petitviolet/meta-programming-scala",
+        "movie": "https://youtu.be/7AezBv08I6A"
       }
     ]
   },
@@ -258,8 +290,10 @@
         "speaker": "河内 崇",
         "profile": "<p>Scalaプログラマ。今年3月に現在の会社に転職した。2児の父。</p> <p><i class='github icon'></i><a href='https://github.com/tkawachi'>tkawachi</a></p><p><i class='twitter icon'></i><a href='https://twitter.com/kawachi'>kawachi</a></p>",
         "image": "https://www.gravatar.com/avatar/35ea8f83cd8d191f834c69a5481613e9?s=200",
-        "description": "<p>仕事を終えて帰ろうとしたときに後ろから声をかけられた。「なんかプログラムが遅いんですよ」</p><p>JVM 上で動作している Scala コードは Java 用のツールを使ってプロファイリングできます。本セッションでは JVM 上で使えるパフォーマンスプロファイリングツールを紹介します。</p>",
-        "rowspan": ""
+        "description": "<p>仕事を終えて帰ろうとしたときに後ろから声をかけられた。「なんかプログラムが遅いんですよ」</p><p>本セッションでは Java Flight Recorder で情報を記録する方法や Java Mission Control でボトルネックをみつける方法について話します。</p>",
+        "rowspan": "",
+        "slide": "https://speakerdeck.com/tkawachi/scala-on-jvm-wopurohuairingusuruturufalseshao-jie",
+        "movie": "https://youtu.be/pXfHhxbrdLA"
       },
       {
         "id": "S22",
@@ -268,7 +302,9 @@
         "profile": "<p>大阪でフリーランスエンジニアやってます。 Scala関西や関西Java女子部の主催もやってます。</p>",
         "image": "https://pbs.twimg.com/profile_images/848342003137912833/S4xb8LrM_400x400.jpg",
         "description": "<p>この約2年間でScalaでのWebアプリ開発案件、及びScalaと同じくJVM言語であるKotlinでのAndroidアプリ開発案件を数件個人でお請けしました。</p><p>当セッションではScalaとKotlinそれぞれの特徴や違いについて簡単に説明した後、両方を業務で利用してみて個人的に感じた双方の印象や、Scala/Kotlin導入を一緒に経験してくださったクライアント様の反応をお話します。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "movie": "https://youtu.be/guzbM_VkHzY",
+        "slide": "https://speakerdeck.com/sammy7th/scalatokotlinwoye-wu-deshi-tutemita"
       }
     ]
   },
@@ -289,7 +325,9 @@
         "profile": "<p>株式会社Tech to Value 代表取締役。Scalaを中心にWeb開発やITシステムコンサルティングを行っています。</p>",
         "image": "http://summit.scala-kansai.org/2015/images/speakers/nakamura.jpg",
         "description": "<p>Property Based Testingでは性質をテストするため、抽象的なライブラリ等での利用が見られますが、業務アプリケーションにおいてはなかなか利用が難しい状況があります。</p><p>このセッションでは実例を通じ、Property Based Testingがドメインロジックのテストにおいてどの様に役立つのかを示します。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "slide": "https://gakuzzzz.github.io/slides/property_based_testing_for_domain/#1",
+        "movie": "https://youtu.be/FpixiaUcJsY"
       },
       {
         "id": "S24",
@@ -298,7 +336,8 @@
         "profile": "<p>フリーランスのプログラマです。</p><p>scala-csv, flyway-playなどを開発しています。</p><p><i class='github icon'></i><a href='https://github.com/tototoshi'>tototoshi</a></p>",
         "image": "https://www.gravatar.com/avatar/405ad7da1defc0f6f8804e026778038f?s=256",
         "description": "<p>Scalaのコードフォーマッタとしては長くscalariformが使われてきましたが、この1年程度でscalafmtも使われるようになってきました。</p><p>この2つのツールを違いとそれぞれの使いこなし方を解説します。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "movie": "https://youtu.be/ZXfCUO_T5CQ"
       },
       {
         "id": "S25",
@@ -307,7 +346,9 @@
         "profile": "<p>Fringe81所属Scalaエンジニア。Scala歴４年目になりました。</p><p><i class='twitter icon'></i><a href='https://twitter.com/mtoyoshi'>mtoyoshi</a></p>",
         "image": "https://pbs.twimg.com/profile_images/662258269830819840/A_jKUFSU_400x400.png",
         "description": "<p>CQRSおよびEvent Sourcingについて耳にする機会が増えてきましたが、まだまだ実践事例が豊富という状況ではないように感じています。</p><p>このセッションでは私が自社サービスを構築する上で実践した事例の紹介と一口にCQRS+ESと言っても実際はいくつかのレベル感があり比較的カジュアルなレベルから始めることも可能であることなどについて述べたいと思います。</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "movie": "https://youtu.be/0CMPCEqycFA",
+        "slide": "https://www.slideshare.net/MasakiToyoshima/ladder-of-cqrses"
       }
     ]
   }
