@@ -11,7 +11,8 @@
         "image": "https://pbs.twimg.com/profile_images/2888329059/491aa8f5d33a892852bada97061e4eb1_400x400.png",
         "description": "<p>Scalaを全く (orほとんど) 触ったことがない方向けにScalaの基本文法をご紹介します.</p> <p>特に他の言語と異なる部分を中心に取り扱いますので, Java又は類似するオブジェクト指向言語を最低限知っていることを前提に進む予定です.</p>",
         "rowspan": "",
-        "slide": "https://www.slideshare.net/amaya_382/scala-79376655"
+        "slide": "https://www.slideshare.net/amaya_382/scala-79376655",
+        "movie": "https://youtu.be/LX38ayEWGC0"
       }
     ]    
   },
@@ -76,7 +77,8 @@
         "profile": "<p>株式会社セプテーニ・オリジナルのエンジニアです。</p><p>ScalaとDDDを基礎にプロダクトの開発を頑張ってます。</p>",
         "image": "https://www.gravatar.com/avatar/44ee497a638689b79d9808a8292a0601?s=400",
         "description": "<p>PlayFrameworkを題材にIntelliJの強力なデバッガについて学ぶハンズオンです。</p><p>jvmへのデバッガのアタッチ、sbtの設定、IntelliJのデバッガの各機能の簡単な説明をPlayFrameworkでありがちなケースを題材に紹介していきます。</p><p>必要な環境：Scala(2.12)、sbt(0.13.16)、IntelliJ(2017.2.1)</p><p>必要な事前準備：sbt new playframework/play-scala-seed.g8 の実行 (できれば一度実行してブラウザで「HelloWorld!」まで表示するところまでやっておいてください。)</p>",
-        "rowspan": ""
+        "rowspan": "",
+        "movie": "https://youtu.be/3LeNUQx4qm4"
       }
     ]
   }
